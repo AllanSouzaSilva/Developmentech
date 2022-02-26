@@ -39,8 +39,8 @@ body {
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, from(#15365c), color-stop(#174678), color-stop(#185796), color-stop(#1669b4), color-stop(#127bd4), color-stop(#0b89e2), color-stop(#0498f0), color-stop(#00a7fe), color-stop(#00b3f9), color-stop(#00beee), color-stop(#00c6df), to(#17cdce));
-  background: linear-gradient(to top, #15365c, #174678, #185796, #1669b4, #127bd4, #0b89e2, #0498f0, #00a7fe, #00b3f9, #00beee, #00c6df, #17cdce);
+  background: -webkit-gradient(linear, left bottom, left top, from(#15365c), color-stop(#174678), color-stop(#185796), color-stop(#1669b4), color-stop(#127bd4), color-stop(#0b89e2), color-stop(#0498f0), color-stop(#00a7fe), color-stop(#00b3f9), color-stop(#00beee), color-stop(#00c6df), color-stop(#17cdce), to(#bbf9ff));
+  background: linear-gradient(to top, #15365c, #174678, #185796, #1669b4, #127bd4, #0b89e2, #0498f0, #00a7fe, #00b3f9, #00beee, #00c6df, #17cdce, #bbf9ff);
   font-family: "Josefin Sans", sans-serif;
 }
 
