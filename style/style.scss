@@ -82,7 +82,7 @@ body {
     border-radius: $borderRadius;
     padding: $spacer 0;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-    height: calc(100vh - #{$spacer * 4});
+    height: 97vh;
     &__link {
         position: relative;
         display: flex;
@@ -113,6 +113,12 @@ body {
     }
     &__menu {
         position: relative;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
     }
     &__item {
         &:last-child {
@@ -168,7 +174,6 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    
 }
 li {
     list-style: none;
@@ -183,7 +188,6 @@ li {
 
 .display-flex {
     display: flex;
-    
 }
 
 .flex-direction-colum {
@@ -193,7 +197,7 @@ li {
 .flex-direction-row {
     flex-direction: row;
 }
-.align-items-flex-end{
+.align-items-flex-end {
     display: flex;
     align-items: flex-end;
 }

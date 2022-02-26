@@ -54,7 +54,7 @@ body {
   padding: 1rem 0;
   -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-  height: calc(100vh - 4rem);
+  height: 97vh;
 }
 
 .navbar__link {
@@ -102,6 +102,17 @@ body {
 
 .navbar__menu {
   position: relative;
+  top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .navbar__item:last-child:before {
