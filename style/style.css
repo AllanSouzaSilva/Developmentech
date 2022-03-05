@@ -62,7 +62,7 @@ body {
   padding: 1rem 0;
   -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-  height: 97vh;
+  height: 94vh;
   z-index: 3;
 }
 
@@ -2007,7 +2007,7 @@ main {
 
 .container {
   width: 90vw;
-  height: 98vh;
+  height: 95vh;
   border-radius: 15px;
   margin: 10px;
   /* From https://css.glass */
@@ -2078,13 +2078,77 @@ h1 {
 
 .link-apresentacao:hover {
   padding: 5px 20px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#DBF3F0), color-stop(#00E0FF), to(#106AF2));
-  background-image: linear-gradient(to right, #DBF3F0, #00E0FF, #106AF2);
+  background-image: -webkit-gradient(linear, left top, right top, from(#dbf3f0), color-stop(#00e0ff), to(#106af2));
+  background-image: linear-gradient(to right, #dbf3f0, #00e0ff, #106af2);
   -webkit-box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
           box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
   border-radius: 10px;
   font-weight: 900;
   color: var(--cor-Azul-Marinho);
+}
+
+.container-servicos {
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.servicos-descricao {
+  border: 2px solid blue;
+  width: 45vw;
+  color: var(--cor-clara-links);
+}
+
+.lista-servico {
+  border: 2px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.lista-servico li {
+  border: 2px solid green;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+  z-index: 1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.lista-servico li::before, .lista-servico li::after {
+  position: absolute;
+  content: "";
+  z-index: 1;
+}
+
+.item-servicos:hover {
+  -webkit-box-shadow: 7px 7px 0px var(--cor-clara-links);
+          box-shadow: 7px 7px 0px var(--cor-clara-links);
+  color: var(--cor-Branco-Azulado);
+  top: 5px;
+  left: -5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.img-servicos {
+  border: 2px solid white;
+}
+
+.img-servicos-ilustracao {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 45vw;
 }
 
 .justify-content-left {
