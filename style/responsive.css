@@ -1,12 +1,11 @@
 @media(max-width: 575px) {
     .navbar {
-        height: 70px !important;
+        border: 1px solid red;
+        height: 70px;
         background: #bbf9ff;
         top: 0;
         left: 0;
         right: 0;
-        margin: auto;
-
     }
 
     .navbar__menu {
@@ -31,15 +30,15 @@
     }
 
     .container {
-        border: 2px solid red;
-        height: 140vh;
-        padding: 10px;
-        margin: 0px auto;
+        border: 1px solid yellow;
+        height: 150vh;
+        margin: 10px auto;
+    }
+    header{
+        margin-top: 75px !important;
     }
 
-    .marginTop {
-        margin: 75px auto;
-    }
+    
 
     .container-apresentacao {
         flex-direction: column;
@@ -53,13 +52,25 @@
         width: 80vw;
     }
 
+    .container-servicos {
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .servicos-descricao, .img-servicos-ilustracao {
+        width: 100%;
+    }
+
+
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
+    header{
+        margin-top: 85px !important;
+    }
     .navbar {
         height: 80px !important;
         background: #bbf9ff;
-
         top: 0;
         left: 0;
         right: 0;
@@ -91,15 +102,11 @@
 
     .container {
         border: 2px solid green;
-        height: 140vh;
-        padding: 10px;
+        height: 150vh;
+        margin: 10px auto;
     }
 
-    .marginTop {
-        margin: 85px auto;
-    }
-
-    .container-apresentacao {
+       .container-apresentacao {
         flex-direction: column;
     }
 
@@ -110,9 +117,21 @@
     .descricao-apresentacao {
         width: 80vw;
     }
+    
+    .container-servicos {
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .servicos-descricao, .img-servicos-ilustracao {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        margin-top: 85px !important;
+    }
     .navbar {
         top: 0;
         left: 0;
@@ -146,14 +165,8 @@
     }
 
     .container {
-        border: 2px solid yellow;
-        height: 140vh;
-        padding: 10px;
-        margin: 0px auto;
-    }
-
-    .marginTop {
-        margin: 85px auto;
+        height: 185vh;
+        margin: 10px auto;
     }
 
 
@@ -168,6 +181,15 @@
     .descricao-apresentacao {
         width: 80vw;
     }
+    
+    .container-servicos {
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .servicos-descricao, .img-servicos-ilustracao {
+        width: 100%;
+    }
 
 }
 
@@ -175,8 +197,8 @@
     .container {
         border: 2px solid blue;
         height: 140vh;
-        padding: 10px;
-        margin: 0px auto;
+        margin: 10px auto;
+        
     }
 
 

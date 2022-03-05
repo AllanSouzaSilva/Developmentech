@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --cor-Azul-Marinho: #040314;
   /*  Cor de fundo */
@@ -2009,7 +2010,7 @@ main {
   width: 90vw;
   height: 95vh;
   border-radius: 15px;
-  margin: 10px;
+  margin: 8px;
   /* From https://css.glass */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -2087,21 +2088,12 @@ h1 {
   color: var(--cor-Azul-Marinho);
 }
 
-.container-servicos {
-  border: 2px solid red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .servicos-descricao {
-  border: 2px solid blue;
   width: 45vw;
   color: var(--cor-clara-links);
 }
 
 .lista-servico {
-  border: 2px solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2113,8 +2105,18 @@ h1 {
   height: 100%;
 }
 
+.lista-servico li::before, .lista-servico li::after {
+  position: absolute;
+  content: "";
+  z-index: 1;
+}
+
+.item-servicos::before {
+  content: "•";
+  color: var(--cor-clara-links);
+}
+
 .lista-servico li {
-  border: 2px solid green;
   position: relative;
   cursor: pointer;
   border: none;
@@ -2125,12 +2127,6 @@ h1 {
   padding: 20px;
 }
 
-.lista-servico li::before, .lista-servico li::after {
-  position: absolute;
-  content: "";
-  z-index: 1;
-}
-
 .item-servicos:hover {
   -webkit-box-shadow: 7px 7px 0px var(--cor-clara-links);
           box-shadow: 7px 7px 0px var(--cor-clara-links);
@@ -2139,10 +2135,6 @@ h1 {
   left: -5px;
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-.img-servicos {
-  border: 2px solid white;
 }
 
 .img-servicos-ilustracao {
