@@ -52,12 +52,12 @@
         width: 80vw;
     }
 
-    .container-servicos {
+    .container-beneficios {
         width: 90vw;
         flex-direction: column;
     }
 
-    .servicos-descricao, .img-servicos-ilustracao {
+    .beneficios-beneficios, .img-beneficios-ilustracao {
         width: 100%;
     }
 
@@ -118,12 +118,12 @@
         width: 80vw;
     }
     
-    .container-servicos {
+    .container-beneficios {
         width: 90vw;
         flex-direction: column;
     }
 
-    .servicos-descricao, .img-servicos-ilustracao {
+    .beneficios-descricao, .img-beneficios-ilustracao {
         width: 100%;
     }
 }
@@ -182,12 +182,12 @@
         width: 80vw;
     }
     
-    .container-servicos {
+    .container-beneficios {
         width: 90vw;
         flex-direction: column;
     }
 
-    .servicos-descricao, .img-servicos-ilustracao {
+    .beneficios-descricao, .img-beneficios-ilustracao {
         width: 100%;
     }
 

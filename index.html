@@ -35,28 +35,32 @@
         <nav class="navbar">
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="home"></i><span>Inicio</span></a>
+                    <a href="#HomePrincipal" class="navbar__link"><i data-feather="home"></i><span>Inicio</span></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="server"></i><span>Serviços</span></a>
+                    <a href="#Servicos-Gerais" class="navbar__link"><i
+                            data-feather="server"></i><span>Serviços</span></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="monitor"></i><span>Benefícios</span></a>
+                    <a href="#Beneficios-Site" class="navbar__link"><i
+                            data-feather="monitor"></i><span>Benefícios</span></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="folder"></i><span>Tecnologias</span></a>
+                    <a href="#Meu-Portifolio" class="navbar__link"><i
+                            data-feather="folder"></i><span>Tecnologias</span></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="archive"></i><span>Projetos</span></a>
+                    <a href="#Hardskills-Ferramentas" class="navbar__link"><i
+                            data-feather="archive"></i><span>Projetos</span></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="users"></i><span>Contatos</span></a>
+                    <a href="#Contato-Direto" class="navbar__link"><i data-feather="users"></i><span>Contatos</span></a>
                 </li>
             </ul>
         </nav>
 
     </header>
-    <main class="display-flex flex-direction-colum align-items-flex-end">
+    <main class="display-flex flex-direction-colum align-items-flex-end" id="HomePrincipal">
 
         <article class="container posicao-centro marginTop">
             <aside class="container-apresentacao posicao-centro ">
@@ -78,45 +82,115 @@
                 </div>
             </aside>
         </article>
-        <article class="container posicao-centro" >
-            <aside class="container-servicos display-flex">
-                <div class="img-servicos">
-                    <img class="img-servicos-ilustracao" src="/img/cherry-business-solutions.png" alt="imagem serviços"
+
+        <article class="container posicao-centro" id="Servicos-Gerais">
+            <aside class="container-servicos display-flex flex-direction-colum">
+
+                <div class="servicos-descricao display-flex flex-direction-colum" data-aos="fade-left">
+                    <ul class="lista-servico display-flex flex-direction-row">
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Upgrade de componentes</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Montagem</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Manutenção</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Montagem de PC gamer</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Formatação</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Instalação de software etc ...</li>
+
+                    </ul>
+                    <ul class="lista-servico display-flex flex-direction-row">
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Criação de Website</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Manutenção de Web site</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Landing Page</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i data-feather="archive"></i>One
+                            Page</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i
+                                data-feather="archive"></i>Paginas estáticas</li>
+                        <li class="item-servicos display-flex flex-direction-colum"><i data-feather="archive"></i>Cartão
+                            de visita online</li>
+                    </ul>
+                </div>
+                <a class="link-apresentacao" href="#">Entre em contato</a>
+            </aside>
+
+        </article>
+        <article class="container posicao-centro" id="Beneficios-Site">
+            <aside class="container-beneficios display-flex">
+                <div class="img-beneficios">
+                    <img class="img-beneficios-ilustracao" src="/img/img-illustracao-servico.png" alt="imagem serviços"
                         data-aos="fade-top">
                 </div>
-                <div class="servicos-descricao posicao-centro " data-aos="fade-bottom">
-                    <ul class="lista-servico">
-                        <li class="item-servicos">Upgrade de componentes</li>
-                        <li class="item-servicos">Montagem</li>
-                        <li class="item-servicos">Manutenção</li>
-                        <li class="item-servicos">Montagem de PC gamer</li>
-                        <li class="item-servicos">Formatação</li>
-                        <li class="item-servicos">Instalação de software etc ...</li>
+                <div class="beneficios-descricao posicao-centro " data-aos="fade-bottom">
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
                         <li><a class="link-apresentacao" href="#">Entre em contato</a></li>
                     </ul>
-                    <ul class="lista-servico">
-                        <li class="item-servicos">Criação de Website</li>
-                        <li class="item-servicos">Manutenção de Web site</li>
-                        <li class="item-servicos">Landing Page</li>
-                        <li class="item-servicos">One Page</li>
-                        <li class="item-servicos">Paginas estáticas</li>
-                        <li class="item-servicos">Cartão de visita online</li>
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
+                        <li class="item-beneficios"></li>
                     </ul>
                 </div>
             </aside>
         </article>
-        <div class="container posicao-centro " data-aos="fade-right">
-            <ul>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-            </ul>
-        </div>
+
+        <article class="container posicao-centro" id="Meu-Portifolio">
+            <div>
+                <ul>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                </ul>
+            </div>
+        </article>
+        <article class="container posicao-centro" id="Hardskills-Ferramentas">
+            <div>
+                <ul>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                </ul>
+            </div>
+        </article>
+        <article class="container posicao-centro" id="Contato-Direto">
+            <div>
+                <ul>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                    <li>A</li>
+                </ul>
+            </div>
+        </article>
     </main>
 
     <script src="/javascript/main.js"></script>

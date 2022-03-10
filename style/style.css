@@ -22,6 +22,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/*********************************** CONFIGURAÇÃO PADRÃO ***********************************/
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +41,11 @@ body {
   padding: 0;
 }
 
+body {
+  background-color: #040314;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,11 +54,7 @@ li {
   list-style: none;
 }
 
-body {
-  background-color: #040314;
-  font-family: "Josefin Sans", sans-serif;
-}
-
+/*********************************** CONFIGURAÇÃO MENU LATERAL ***********************************/
 .navbar {
   position: fixed;
   top: 1rem;
@@ -1999,6 +2001,7 @@ body {
   }
 }
 
+/*********************************** CONFIGURAÇÃO MAIN ***********************************/
 main {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1561' height='662' preserveAspectRatio='none' viewBox='0 0 1561 662'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath8949%26quot%3b)' fill='none'%3e%3ccircle r='46.37' cx='723.7' cy='481.62' fill='url(%23SvgjsLinearGradient8950)'%3e%3c/circle%3e%3ccircle r='23.375' cx='378.65' cy='68.73' fill='url(%23SvgjsLinearGradient8951)'%3e%3c/circle%3e%3ccircle r='34.44' cx='374.29' cy='252.29' fill='url(%23SvgjsLinearGradient8952)'%3e%3c/circle%3e%3ccircle r='63.735' cx='189.17' cy='123.03' fill='url(%23SvgjsLinearGradient8953)'%3e%3c/circle%3e%3ccircle r='47.795' cx='721.68' cy='323.16' fill='url(%23SvgjsLinearGradient8954)'%3e%3c/circle%3e%3ccircle r='24.835' cx='502.95' cy='350.14' fill='url(%23SvgjsRadialGradient8955)'%3e%3c/circle%3e%3ccircle r='46.565' cx='603.99' cy='302.66' fill='url(%23SvgjsLinearGradient8956)'%3e%3c/circle%3e%3ccircle r='25.55' cx='1438.66' cy='417.15' fill='url(%23SvgjsLinearGradient8957)'%3e%3c/circle%3e%3ccircle r='63.9' cx='1178.87' cy='175.64' fill='url(%23SvgjsLinearGradient8958)'%3e%3c/circle%3e%3ccircle r='42.785' cx='828.06' cy='562.26' fill='url(%23SvgjsLinearGradient8959)'%3e%3c/circle%3e%3ccircle r='24.68' cx='938.71' cy='497.69' fill='url(%23SvgjsLinearGradient8960)'%3e%3c/circle%3e%3ccircle r='21.18' cx='608.24' cy='13.23' fill='url(%23SvgjsLinearGradient8961)'%3e%3c/circle%3e%3ccircle r='17.3' cx='945.07' cy='6.32' fill='url(%23SvgjsLinearGradient8962)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath8949'%3e%3crect width='1561' height='662' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='630.96' y1='481.62' x2='816.44' y2='481.62' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8950'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 146%2c 230%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='331.9' y1='68.73' x2='425.4' y2='68.73' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8951'%3e%3cstop stop-color='rgba(213%2c 206%2c 203%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='305.41' y1='252.29' x2='443.17' y2='252.29' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8952'%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 229%2c 228%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='61.69999999999999' y1='123.03' x2='316.64' y2='123.03' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8953'%3e%3cstop stop-color='rgba(23%2c 205%2c 206%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(167%2c 228%2c 234%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='626.0899999999999' y1='323.16' x2='817.27' y2='323.16' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8954'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 146%2c 230%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3cradialGradient cx='453.28' cy='399.80999999999995' r='140.49' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient8955'%3e%3cstop stop-color='rgba(99%2c 223%2c 235%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 3%2c 20%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3clinearGradient x1='510.86' y1='302.66' x2='697.12' y2='302.66' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8956'%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 229%2c 228%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1387.5600000000002' y1='417.15' x2='1489.7600000000002' y2='417.15' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8957'%3e%3cstop stop-color='rgba(23%2c 205%2c 206%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(167%2c 228%2c 234%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1051.07' y1='175.64' x2='1306.6699999999998' y2='175.64' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8958'%3e%3cstop stop-color='rgba(23%2c 205%2c 206%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(167%2c 228%2c 234%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='742.49' y1='562.26' x2='913.63' y2='562.26' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8959'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 146%2c 230%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='889.35' y1='497.69' x2='988.07' y2='497.69' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8960'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(30%2c 146%2c 230%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='565.88' y1='13.23' x2='650.6' y2='13.23' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8961'%3e%3cstop stop-color='rgba(23%2c 205%2c 206%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(167%2c 228%2c 234%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='910.47' y1='6.32' x2='979.6700000000001' y2='6.32' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8962'%3e%3cstop stop-color='rgba(213%2c 206%2c 203%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
   background-attachment: fixed;
@@ -2006,11 +2009,12 @@ main {
   height: 100%;
 }
 
+/*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL PADRÃO ***********************************/
 .container {
   width: 90vw;
   height: 95vh;
   border-radius: 15px;
-  margin: 8px;
+  margin: 15px;
   /* From https://css.glass */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -2021,6 +2025,7 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/*********************************** CONFIGURAÇÃO SESSÃO APRESENTAÇÃO ***********************************/
 .container-apresentacao {
   width: 80vw;
   margin: auto;
@@ -2088,12 +2093,56 @@ h1 {
   color: var(--cor-Azul-Marinho);
 }
 
+/*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
+.container-servicos {
+  border: 2px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .servicos-descricao {
+  border: 2px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.lista-servico {
+  border: 2px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-servicos {
+  border: 2px solid white;
+  width: 150px;
+  padding: 20px;
+  margin: 15px;
+}
+
+/*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+.beneficios-descricao {
   width: 45vw;
   color: var(--cor-clara-links);
 }
 
-.lista-servico {
+.lista-beneficios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2105,18 +2154,18 @@ h1 {
   height: 100%;
 }
 
-.lista-servico li::before, .lista-servico li::after {
+.lista-beneficios li::before, .lista-beneficios li::after {
   position: absolute;
   content: "";
   z-index: 1;
 }
 
-.item-servicos::before {
+.item-beneficios::before {
   content: "•";
   color: var(--cor-clara-links);
 }
 
-.lista-servico li {
+.lista-beneficios li {
   position: relative;
   cursor: pointer;
   border: none;
@@ -2127,7 +2176,7 @@ h1 {
   padding: 20px;
 }
 
-.item-servicos:hover {
+.item-beneficios:hover {
   -webkit-box-shadow: 7px 7px 0px var(--cor-clara-links);
           box-shadow: 7px 7px 0px var(--cor-clara-links);
   color: var(--cor-Branco-Azulado);
@@ -2137,12 +2186,16 @@ h1 {
   transition: 1s;
 }
 
-.img-servicos-ilustracao {
+.img-beneficios-ilustracao {
   -o-object-fit: contain;
      object-fit: contain;
   width: 45vw;
 }
 
+/*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
+/*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
+/*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
+/*********************************** CONFIGURAÇÃO FLEX-BOX ***********************************/
 .justify-content-left {
   display: -webkit-box;
   display: -ms-flexbox;
