@@ -1,4 +1,5 @@
 :root {
+    /*  Cor de fonte */
     --cor-Azul-Marinho: #040314;
     /*  Cor de fundo */
     --cor-Azul-Oceano: #15365c;
@@ -12,6 +13,8 @@
     --cor-branco: #f8f2f6;
     /**/
     --cor-clara-links: #17cdce;
+    /**/
+    --cor-diferente: #dd5065;
     /**/
 }
 
@@ -35,12 +38,15 @@ $transition: $timing ease all;
     box-sizing: border-box;
 }
 html {
+    overflow-x: hidden;
     scroll-behavior: smooth;
     font-size: calc(60% + 0.8vmin);
 }
 
 html,
 body {
+    font-size: calc(60% + 0.8vmin);
+   
     margin: 0;
     padding: 0;
 }
@@ -175,7 +181,6 @@ main {
     height: 100%;
 }
 
-
 /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL PADRÃO ***********************************/
 .container {
     width: 90vw;
@@ -248,60 +253,67 @@ h1 {
 }
 
 /*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
-.container-servicos{
+.container-servicos {
     border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-
+    width: 80vw;
 }
 .servicos-descricao {
     border: 2px solid yellow;
     display: flex;
     flex-wrap: nowrap;
 }
-.lista-servico{
+.lista-servico {
     border: 2px solid green;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: center;
+    margin-bottom: 15px;
 }
-.item-servicos{
+.item-servicos {
     border: 2px solid white;
     width: 150px;
-    padding: 20px;
-    margin: 15px;
+    padding: 10px;
 }
-
 /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+.container-beneficios {
+    width: 80vw;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
 .beneficios-descricao {
-    width: 45vw;
     color: var(--cor-clara-links);
 }
 .lista-beneficios {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
+    border: 2px solid white;
 }
-.lista-beneficios li::before,.lista-beneficios li::after{
+.lista-beneficios li::before,
+.lista-beneficios li::after {
     position: absolute;
     content: "";
     z-index: 1;
 }
-.item-beneficios::before {content: "•"; color: var(--cor-clara-links)}
+.item-beneficios::before {
+    content: "•";
+    color: var(--cor-clara-links);
+}
 
 .lista-beneficios li {
+    border: 2px solid blue;
     position: relative;
     cursor: pointer;
     border: none;
-    transition: .4s ease-in;
+    transition: 0.4s ease-in;
     z-index: 1;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+}
+.lista-beneficios li p {
+    margin: 5px;
 }
 
-.item-beneficios:hover{
+.item-beneficios:hover {
     box-shadow: 7px 7px 0px var(--cor-clara-links);
     color: var(--cor-Branco-Azulado);
     top: 5px;
@@ -310,12 +322,48 @@ h1 {
 }
 .img-beneficios-ilustracao {
     object-fit: contain;
-    width: 45vw;
+    width: 32vw;
+    height: 100%;
 }
 
 /*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
+/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
+.borda-fim-page {
+    border: 2px solid;
+    border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+    margin: 10px auto;
+    width: 1000px;
+}
+.p-reservado {
+    color: var(--cor-Branco-Azulado);
+    margin: auto;
+    text-align: center;
+}
+/*********************************** CONFIGURAÇÃO EFEITO IMAGENS FLUTANDO ***********************************/
+#hero,
+.animated {
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
 /*********************************** CONFIGURAÇÃO FLEX-BOX ***********************************/
 .justify-content-left {
     display: flex;
@@ -336,6 +384,10 @@ h1 {
 .align-items-flex-end {
     display: flex;
     align-items: flex-end;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }
 .posicao-centro {
     display: flex;

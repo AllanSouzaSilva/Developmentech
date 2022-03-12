@@ -31,15 +31,16 @@
 
     .container {
         border: 1px solid yellow;
-        height: 150vh;
+        height: 125vh;
         margin: 10px auto;
     }
-    header{
+
+    header {
         margin-top: 75px !important;
     }
 
-    
 
+    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
     }
@@ -49,25 +50,46 @@
     }
 
     .descricao-apresentacao {
-        width: 80vw;
+        width: 100vw;
     }
 
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .container-servicos-responsivo {
+        height: 175vh !important;
+    }
+
+    .lista-servico {
+        justify-content: space-around;
+    }
+
+
+
+    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
     .container-beneficios {
+        flex-wrap: wrap;
         width: 90vw;
-        flex-direction: column;
     }
 
-    .beneficios-beneficios, .img-beneficios-ilustracao {
+    .img-beneficios-ilustracao {
         width: 100%;
+
     }
 
+    .lista-beneficios {
+        width: 225px;
+    }
+
+    .lista-beneficios h1 {
+        font-size: 1.5rem;
+    }
 
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
-    header{
+    header {
         margin-top: 85px !important;
     }
+
     .navbar {
         height: 80px !important;
         background: #bbf9ff;
@@ -102,11 +124,11 @@
 
     .container {
         border: 2px solid green;
-        height: 150vh;
+        height: 125vh;
         margin: 10px auto;
     }
 
-       .container-apresentacao {
+    .container-apresentacao {
         flex-direction: column;
     }
 
@@ -117,21 +139,42 @@
     .descricao-apresentacao {
         width: 80vw;
     }
-    
-    .container-beneficios {
-        width: 90vw;
-        flex-direction: column;
+
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .container-servicos-responsivo {
+        height: 175vh !important;
+    }
+    .lista-servico {
+        justify-content: space-around;
     }
 
-    .beneficios-descricao, .img-beneficios-ilustracao {
-        width: 100%;
+    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+    .container-beneficios {
+        flex-wrap: wrap;
+        width: 90vw;
     }
+
+    .img-beneficios-ilustracao {
+        width: 100%;
+
+    }
+
+    .lista-beneficios {
+        width: 225px;
+    }
+
+    .lista-beneficios h1 {
+        font-size: 1.5rem;
+    }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    header{
+    header {
         margin-top: 85px !important;
     }
+
     .navbar {
         top: 0;
         left: 0;
@@ -165,7 +208,8 @@
     }
 
     .container {
-        height: 185vh;
+        border: 2px solid blue;
+        height: 120vh;
         margin: 10px auto;
     }
 
@@ -178,27 +222,76 @@
         width: 500px;
     }
 
-    .descricao-apresentacao {
-        width: 80vw;
-    }
-    
-    .container-beneficios {
-        width: 90vw;
-        flex-direction: column;
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .container-servicos-responsivo {
+        height: 175vh !important;
     }
 
-    .beneficios-descricao, .img-beneficios-ilustracao {
-        width: 100%;
+
+    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+    .container-beneficios {
+        flex-wrap: wrap;
+        width: 90vw;
     }
+
+    .img-beneficios-ilustracao {
+        width: 100%;
+
+    }
+
+    .lista-beneficios {
+        width: 225px;
+    }
+
+    .lista-beneficios h1 {
+        font-size: 1.5rem;
+    }
+
 
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    header {
+        margin-top: 85px !important;
+    }
+
+    .navbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px !important;
+        background: #bbf9ff;
+        margin: auto;
+
+
+    }
+
+    .navbar__menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar:hover span {
+        left: auto;
+        top: 100%;
+        color: #0194ff;
+        background: #bbf9ff;
+
+    }
+
+    .navbar__link:hover {
+        color: #0194ff;
+    }
+
+    .navbar__item:before {
+        display: none;
+    }
+
     .container {
-        border: 2px solid blue;
-        height: 140vh;
+        border: 2px solid yellow;
+        height: 145vh;
         margin: 10px auto;
-        
+
     }
 
 
@@ -206,6 +299,9 @@
         width: 500px;
     }
 
+    .container-apresentacao {
+        flex-direction: column;
+    }
 
     .descricao-apresentacao {
         width: 80vw;

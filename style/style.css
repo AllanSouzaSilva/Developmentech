@@ -1,5 +1,6 @@
 @charset "UTF-8";
 :root {
+  /*  Cor de fonte */
   --cor-Azul-Marinho: #040314;
   /*  Cor de fundo */
   --cor-Azul-Oceano: #15365c;
@@ -13,6 +14,8 @@
   --cor-branco: #f8f2f6;
   /**/
   --cor-clara-links: #17cdce;
+  /**/
+  --cor-diferente: #dd5065;
   /**/
 }
 
@@ -31,12 +34,14 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
   font-size: calc(60% + 0.8vmin);
 }
 
 html,
 body {
+  font-size: calc(60% + 0.8vmin);
   margin: 0;
   padding: 0;
 }
@@ -2096,13 +2101,7 @@ h1 {
 /*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
 .container-servicos {
   border: 2px solid blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  width: 80vw;
 }
 
 .servicos-descricao {
@@ -2124,37 +2123,35 @@ h1 {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-bottom: 15px;
 }
 
 .item-servicos {
   border: 2px solid white;
   width: 150px;
-  padding: 20px;
-  margin: 15px;
+  padding: 10px;
 }
 
 /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+.container-beneficios {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
 .beneficios-descricao {
-  width: 45vw;
   color: var(--cor-clara-links);
 }
 
 .lista-beneficios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  height: 100%;
+  border: 2px solid white;
 }
 
-.lista-beneficios li::before, .lista-beneficios li::after {
+.lista-beneficios li::before,
+.lista-beneficios li::after {
   position: absolute;
   content: "";
   z-index: 1;
@@ -2166,14 +2163,22 @@ h1 {
 }
 
 .lista-beneficios li {
+  border: 2px solid blue;
   position: relative;
   cursor: pointer;
   border: none;
-  -webkit-transition: .4s ease-in;
-  transition: .4s ease-in;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
   z-index: 1;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lista-beneficios li p {
+  margin: 5px;
 }
 
 .item-beneficios:hover {
@@ -2189,12 +2194,56 @@ h1 {
 .img-beneficios-ilustracao {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 45vw;
+  width: 32vw;
+  height: 100%;
 }
 
 /*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
+/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
+.borda-fim-page {
+  border: 2px solid;
+  -o-border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+  margin: 10px auto;
+  width: 1000px;
+}
+
+.p-reservado {
+  color: var(--cor-Branco-Azulado);
+  margin: auto;
+  text-align: center;
+}
+
+/*********************************** CONFIGURAÇÃO EFEITO IMAGENS FLUTANDO ***********************************/
+#hero,
+.animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  from {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  from {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
 /*********************************** CONFIGURAÇÃO FLEX-BOX ***********************************/
 .justify-content-left {
   display: -webkit-box;
@@ -2236,6 +2285,15 @@ h1 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .posicao-centro {
