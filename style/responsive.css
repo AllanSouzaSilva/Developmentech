@@ -1,6 +1,5 @@
 @media(max-width: 575px) {
     .navbar {
-        border: 1px solid red;
         height: 70px;
         background: #bbf9ff;
         top: 0;
@@ -29,6 +28,21 @@
         display: none;
     }
 
+    body {
+
+        border: 2px solid white;
+    }
+
+    main {
+        border: 2px solid red;
+        justify-content: space-around;
+    }
+
+    h1{
+        margin: auto;
+        padding: 10px;
+    }
+
     .container {
         border: 1px solid yellow;
         height: 125vh;
@@ -46,17 +60,15 @@
     }
 
     .img-illustracao-principal {
-        width: 500px;
+        width: 420px;
     }
 
     .descricao-apresentacao {
-        width: 100vw;
+        width: 80vw;
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
-    .container-servicos-responsivo {
-        height: 175vh !important;
-    }
+
 
     .lista-servico {
         justify-content: space-around;
@@ -75,12 +87,34 @@
 
     }
 
-    .lista-beneficios {
-        width: 225px;
+
+    .beneficios-descricao {
+        border: 2px solid green;
+        flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .lista-beneficios h1 {
-        font-size: 1.5rem;
+    .lista-beneficios {
+        padding: 8px;
+    }
+
+    .container-servicos-responsivo {
+        height: 190vh !important;
+    }
+
+    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+    .container-portifolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-portifolio-responsivo {
+        height: 210vh !important;
+    }
+
+    .container-img-portifolio, .img-portifolio {
+        width: 100%;
     }
 
 }
@@ -142,8 +176,9 @@
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
     .container-servicos-responsivo {
-        height: 175vh !important;
+        height: 155vh !important;
     }
+
     .lista-servico {
         justify-content: space-around;
     }
@@ -159,13 +194,31 @@
 
     }
 
-    .lista-beneficios {
-        width: 225px;
+    .beneficios-descricao {
+        border: 2px solid green;
+        flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .lista-beneficios h1 {
-        font-size: 1.5rem;
+    .lista-beneficios {
+        padding: 8px;
     }
+     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+     .container-portifolio {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .container-portifolio-responsivo {
+        height: 255vh !important;
+    }
+
+    .container-img-portifolio, .img-portifolio {
+        width: 100%;
+    }
+
 
 
 }
@@ -209,7 +262,6 @@
 
     .container {
         border: 2px solid blue;
-        height: 120vh;
         margin: 10px auto;
     }
 
@@ -224,7 +276,7 @@
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
     .container-servicos-responsivo {
-        height: 175vh !important;
+        height:180vh !important;
     }
 
 
@@ -239,12 +291,29 @@
 
     }
 
-    .lista-beneficios {
-        width: 225px;
+    .beneficios-descricao {
+        border: 2px solid green;
+        flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .lista-beneficios h1 {
-        font-size: 1.5rem;
+    .lista-beneficios {
+        padding: 8px;
+    }
+     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+     .container-portifolio {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .container-portifolio-responsivo {
+        height: 280vh !important;
+    }
+
+    .container-img-portifolio, .img-portifolio {
+        width: 100%;
     }
 
 
@@ -289,7 +358,7 @@
 
     .container {
         border: 2px solid yellow;
-        height: 145vh;
+        height: 165vh;
         margin: 10px auto;
 
     }
@@ -305,5 +374,40 @@
 
     .descricao-apresentacao {
         width: 80vw;
+    }
+
+    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+    .container-beneficios {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .img-beneficios-ilustracao, .beneficios-descricao, .lista-beneficios {
+        width: 100%;
+
+    }
+
+    .beneficios-descricao {
+        border: 2px solid green;
+        width: 100%;
+    }
+
+    .lista-beneficios {
+        padding: 8px;
+    }
+     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+     .container-portifolio {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .container-portifolio-responsivo {
+        height: 250vh !important;
+    }
+
+    .container-img-portifolio, .img-portifolio {
+        width: 100%;
     }
 }

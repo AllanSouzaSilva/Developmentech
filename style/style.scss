@@ -46,7 +46,7 @@ html {
 html,
 body {
     font-size: calc(60% + 0.8vmin);
-   
+
     margin: 0;
     padding: 0;
 }
@@ -214,7 +214,6 @@ main {
     display: flex;
     justify-content: left !important;
     text-align: left;
-    width: 60vw;
     padding: 20px;
 }
 
@@ -270,7 +269,6 @@ h1 {
     margin-bottom: 15px;
 }
 .item-servicos {
-    border: 2px solid white;
     width: 150px;
     padding: 10px;
 }
@@ -279,13 +277,9 @@ h1 {
     width: 80vw;
     display: flex;
     flex-wrap: nowrap;
-    
 }
 .beneficios-descricao {
     color: var(--cor-clara-links);
-}
-.lista-beneficios {
-    border: 2px solid white;
 }
 .lista-beneficios li::before,
 .lista-beneficios li::after {
@@ -326,6 +320,26 @@ h1 {
     height: 100%;
 }
 
+/*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+.container-portifolio {
+    display: flex;
+    flex-direction: column;
+}
+.lista-portifolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-img-portifolio{
+    border: 2px solid red;
+    
+}
+.img-portifolio {
+    object-fit: contain;
+    width: 350px;
+    height: 250px;
+}
+
 /*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
@@ -334,7 +348,6 @@ h1 {
     border: 2px solid;
     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
     margin: 10px auto;
-    width: 1000px;
 }
 .p-reservado {
     color: var(--cor-Branco-Azulado);
