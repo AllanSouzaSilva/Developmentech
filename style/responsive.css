@@ -38,7 +38,7 @@
         justify-content: space-around;
     }
 
-    h1{
+    h1 {
         margin: auto;
         padding: 10px;
     }
@@ -67,11 +67,22 @@
         width: 80vw;
     }
 
-    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .link-apresentacao {
+        margin: 0;
+        width: 150px;
+    }
 
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .servicos-descricao {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 
     .lista-servico {
-        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
     }
 
 
@@ -99,7 +110,7 @@
     }
 
     .container-servicos-responsivo {
-        height: 190vh !important;
+        height: 200vh !important;
     }
 
     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
@@ -109,12 +120,13 @@
         height: 100%;
     }
 
-    .container-portifolio-responsivo {
-        height: 210vh !important;
-    }
 
     .container-img-portifolio, .img-portifolio {
         width: 100%;
+    }
+
+    .container-portifolio-responsivo {
+        height: 275vh !important;
     }
 
 }
@@ -203,25 +215,33 @@
     .lista-beneficios {
         padding: 8px;
     }
-     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
-     .container-portifolio {
+    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+    .container-portifolio {
         width: 100%;
         height: 100%;
-        justify-content: space-around;
     }
 
     .container-portifolio-responsivo {
-        height: 255vh !important;
+        height: 300vh !important;
     }
+
+    .lista-portifolio {
+        flex-direction: column;
+    }
+
+    .container-portifolio {
+        width: 100%;
+        height: 100%;
+    }
+
 
     .container-img-portifolio, .img-portifolio {
         width: 100%;
     }
-
-
-
 }
+
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     header {
@@ -276,7 +296,7 @@
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
     .container-servicos-responsivo {
-        height:180vh !important;
+        height: 180vh !important;
     }
 
 
@@ -300,9 +320,10 @@
     .lista-beneficios {
         padding: 8px;
     }
-     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
-     .container-portifolio {
+    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+    .container-portifolio {
         width: 100%;
         height: 100%;
         justify-content: space-around;
@@ -395,19 +416,10 @@
     .lista-beneficios {
         padding: 8px;
     }
-     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
-     .container-portifolio {
-        width: 100%;
-        height: 100%;
-        justify-content: space-around;
-    }
-
-    .container-portifolio-responsivo {
-        height: 250vh !important;
-    }
-
-    .container-img-portifolio, .img-portifolio {
-        width: 100%;
-    }
+    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+.container-portifolio-responsivo{
+    height: 90vh;
+}
+    
 }

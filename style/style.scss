@@ -218,14 +218,22 @@ main {
 }
 
 .descricao-apresentacao h3,
-h1 {
-    background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0);
+.titulo-pricipal,
+.titulo-secundario {
+    background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 2.5rem;
+}
+
+.titulo-secundario {
+    padding: 10px;
+    margin: 0   auto;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
 }
 .paragrafo-apresentacao,
 .link-apresentacao {
@@ -236,8 +244,8 @@ h1 {
 }
 .link-apresentacao {
     text-align: center;
-    padding: 5px 20px;
-    background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0);
+    padding: 8px;
+    background-image: linear-gradient(to top, #106af2, #00e0ff, #dbf3f0);
     border-radius: 10px;
     font-weight: 900;
     color: var(--cor-Azul-Marinho);
@@ -253,25 +261,35 @@ h1 {
 
 /*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
 .container-servicos {
-    border: 2px solid blue;
     width: 80vw;
 }
 .servicos-descricao {
-    border: 2px solid yellow;
     display: flex;
     flex-wrap: nowrap;
 }
 .lista-servico {
-    border: 2px solid green;
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    flex-wrap: nowrap;
     margin-bottom: 15px;
+    color: var(--cor-azulesmeralda);
 }
+
+
 .item-servicos {
-    width: 150px;
     padding: 10px;
+    color: var(--cor-branco);
 }
+.lista-servico h3 {
+color: var(--cor-clara-links);
+margin: 5px 0;
+}
+
+.icon-servico{
+    margin: 10px auto;
+    height: $linkHeight;
+    width: $spacer * 2.5;
+}
+
 /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
 .container-beneficios {
     width: 80vw;
@@ -323,21 +341,29 @@ h1 {
 /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
 .container-portifolio {
+    border: 2px solid green;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .lista-portifolio {
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
-.container-img-portifolio{
-    border: 2px solid red;
-    
+.container-img-portifolio {
+    border: 2px solid yellow;
+    margin: auto;
+    margin: 10px;
 }
+
 .img-portifolio {
-    object-fit: contain;
-    width: 350px;
-    height: 250px;
+    border: 2px solid blue;
+    width: 300px;
+    height: 230px;
+    object-fit: cotain;
 }
 
 /*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
