@@ -2071,10 +2071,25 @@ main {
 
 .titulo-secundario {
   padding: 10px;
-  margin: 0   auto;
+  margin: 0 auto;
   border-bottom: 1px solid;
   -o-border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
      border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
+}
+
+.texto-subtitulo {
+  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
+     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
+  background-image: -webkit-gradient(linear, left top, right top, from(#106af2), color-stop(#00e0ff), color-stop(#dbf3f0), to(#f8f2f6));
+  background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
 
 .paragrafo-apresentacao,
@@ -2172,7 +2187,6 @@ main {
 }
 
 .lista-beneficios li {
-  border: 2px solid blue;
   position: relative;
   cursor: pointer;
   border: none;
@@ -2209,20 +2223,11 @@ main {
 
 /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 .container-portifolio {
-  border: 2px solid green;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
 .lista-portifolio {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2232,21 +2237,137 @@ main {
 }
 
 .container-img-portifolio {
-  border: 2px solid yellow;
   margin: auto;
   margin: 10px;
 }
 
 .img-portifolio {
-  border: 2px solid blue;
   width: 300px;
   height: 230px;
   -o-object-fit: cotain;
      object-fit: cotain;
 }
 
-/*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
+.container-hardskills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.container-hardskills .img-hard-ilustracao {
+  width: 40vw;
+}
+
+.container-hardskills section {
+  padding: 5px;
+}
+
+.img-hardskills {
+  width: 40%;
+}
+
+.card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  width: 200px;
+  height: 180px;
+  position: relative;
+  margin: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: none;
+  background: var(--cor-Azul-Marinho);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 260%;
+  bottom: -100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#106af2), to(#bbf9ff));
+  background: linear-gradient(#106af2, #bbf9ff);
+  -webkit-animation: EfeitoBorda 4s linear infinite;
+          animation: EfeitoBorda 4s linear infinite;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: var(--cor-Azul-Marinho);
+  border-radius: 16px;
+}
+
+@-webkit-keyframes EfeitoBorda {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes EfeitoBorda {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.card-side {
+  border-radius: 15px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  z-index: 1;
+}
+
+.card-side.back {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  background-color: var(--cor-Azul-Marinho);
+  color: var(--cor-Branco-Azulado);
+  padding: 15px;
+}
+
+.card-side.back h3 {
+  color: var(--cor-clara-links);
+  padding-bottom: 5px;
+}
+
+.card:hover.card-side.card-side.front {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
 /*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
 .borda-fim-page {

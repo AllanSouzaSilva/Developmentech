@@ -129,6 +129,18 @@
         height: 275vh !important;
     }
 
+    
+.container-hardskills, .direcao-responsiva-colum {
+    flex-direction: column;
+}
+.direcao-responsiva-row{
+    display: flex;
+    flex-direction: row;
+}
+.container-hardskills .img-hard-ilustracao {
+    width: 100%;
+    margin: auto;
+}
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
@@ -337,6 +349,18 @@
         width: 100%;
     }
 
+    .container-hardskills, .direcao-responsiva-colum {
+        flex-direction: column;
+    }
+    .direcao-responsiva-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-hardskills .img-hard-ilustracao {
+        width: 100%;
+        margin: auto;
+    }
+
 
 }
 
@@ -421,5 +445,9 @@
 .container-portifolio-responsivo{
     height: 90vh;
 }
-    
+
+.container-hardskills .img-hard-ilustracao {
+    width: 100%;
+    margin: auto;
+}
 }

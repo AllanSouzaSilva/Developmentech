@@ -231,10 +231,24 @@ main {
 
 .titulo-secundario {
     padding: 10px;
-    margin: 0   auto;
+    margin: 0 auto;
     border-bottom: 1px solid;
     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
 }
+
+.texto-subtitulo {
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, rgba(255, 255, 255, 0.1) 100%) 1;
+    background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
 .paragrafo-apresentacao,
 .link-apresentacao {
     line-height: 1.2;
@@ -274,17 +288,16 @@ main {
     color: var(--cor-azulesmeralda);
 }
 
-
 .item-servicos {
     padding: 10px;
     color: var(--cor-branco);
 }
 .lista-servico h3 {
-color: var(--cor-clara-links);
-margin: 5px 0;
+    color: var(--cor-clara-links);
+    margin: 5px 0;
 }
 
-.icon-servico{
+.icon-servico {
     margin: 10px auto;
     height: $linkHeight;
     width: $spacer * 2.5;
@@ -311,7 +324,6 @@ margin: 5px 0;
 }
 
 .lista-beneficios li {
-    border: 2px solid blue;
     position: relative;
     cursor: pointer;
     border: none;
@@ -341,33 +353,119 @@ margin: 5px 0;
 /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
 .container-portifolio {
-    border: 2px solid green;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
 .lista-portifolio {
-    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 .container-img-portifolio {
-    border: 2px solid yellow;
     margin: auto;
     margin: 10px;
 }
 
 .img-portifolio {
-    border: 2px solid blue;
     width: 300px;
     height: 230px;
     object-fit: cotain;
 }
 
-/*********************************** CONFIGURAÇÃO PORTIFÓLIO ***********************************/
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
+.container-hardskills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container-hardskills .img-hard-ilustracao {
+    width: 40vw;
+}
+
+.container-hardskills section {
+    padding: 5px;
+}
+
+.img-hardskills {
+    width: 40%;
+}
+
+.card {
+    perspective: 150rem;
+    width: 200px;
+    height: 180px;
+    position: relative;
+    margin: 10px;
+    box-shadow: none;
+    background: none;
+    background: var(--cor-Azul-Marinho);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 260%;
+    bottom: -100px;
+    background: linear-gradient(#106af2, #bbf9ff);
+    animation: EfeitoBorda 4s linear infinite;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: var(--cor-Azul-Marinho);
+    border-radius: 16px;
+}
+
+@keyframes EfeitoBorda {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.card-side {
+    border-radius: 15px;
+    transition: all 0.7s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.card-side.back {
+    transform: rotateY(-180deg);
+    background-color: var(--cor-Azul-Marinho);
+    color: var(--cor-Branco-Azulado);
+    padding: 15px;
+}
+
+.card-side.back h3 {
+    color: var(--cor-clara-links);
+    padding-bottom: 5px;
+}
+
+.card-side.front {
+    
+}
+
+.card:hover.card-side.card-side.front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
 /*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
 .borda-fim-page {
