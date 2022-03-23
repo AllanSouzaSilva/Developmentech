@@ -15,8 +15,11 @@
   /**/
   --cor-clara-links: #17cdce;
   /**/
-  --cor-diferente: #dd5065;
+  --cor-rosa: #dd5065;
   /**/
+  --cor-roxo: #9e78fe;
+  /**/
+  --cor-verdemar: #04b3c8;
 }
 
 .fontes {
@@ -36,7 +39,7 @@
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-size: calc(60% + 0.8vmin);
+  font-size: calc(60% + 0.9vmin);
 }
 
 html,
@@ -2031,7 +2034,11 @@ main {
 }
 
 /*********************************** CONFIGURAÇÃO SESSÃO APRESENTAÇÃO ***********************************/
-.container-apresentacao, .container-servicos, .container-beneficios, .container-portifolio, .container-hardskills {
+.container-apresentacao,
+.container-servicos,
+.container-beneficios,
+.container-portifolio,
+.container-hardskills {
   padding: 65px 10px;
   margin: 5px;
 }
@@ -2047,6 +2054,7 @@ main {
       -ms-flex-pack: left !important;
           justify-content: left !important;
   text-align: left;
+  padding: 10px;
 }
 
 .img-illustracao-principal {
@@ -2134,22 +2142,20 @@ main {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-bottom: 15px;
   color: var(--cor-azulesmeralda);
 }
 
 .item-servicos {
-  padding: 10px;
+  padding: 5px;
   color: var(--cor-branco);
 }
 
 .lista-servico h3 {
   color: var(--cor-clara-links);
-  margin: 5px 0;
 }
 
 .icon-servico {
-  margin: 10px auto;
+  margin: 5px auto;
   height: 3.5rem;
   width: 2.5rem;
 }
@@ -2254,7 +2260,6 @@ main {
   -webkit-box-shadow: none;
           box-shadow: none;
   background: none;
-  background: var(--cor-Azul-Marinho);
   overflow: hidden;
   border-radius: 20px;
 }
@@ -2319,13 +2324,13 @@ main {
 .card-side.back {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  background-color: var(--cor-Azul-Marinho);
+  background-color: var(--cor-diferente);
   color: var(--cor-Branco-Azulado);
   padding: 15px;
 }
 
 .card-side.back h3 {
-  color: var(--cor-clara-links);
+  color: var(--cor-Azul-Marinho);
   padding-bottom: 5px;
 }
 
@@ -2340,18 +2345,57 @@ main {
 }
 
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
-/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
-.borda-fim-page {
-  border: 2px solid;
-  -o-border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
-     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
-  margin: 10px auto;
+.container-rodape {
+  border: 2px solid rebeccapurple;
+  padding: 20px;
+  color: var(--cor-azulesmeralda);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+          align-items: stretch !important;
 }
 
-.p-reservado {
+.container-rodape section {
+  border: 2px solid yellow;
+  padding: 20px;
+}
+
+.container-rodape section p {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.container-rodape section img {
+  border: 2px solid green;
+  gap: 10px;
+  padding: 5px;
+}
+
+.icon-github {
+  width: 72px;
+  height: 72px;
+}
+
+/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
+.borda-fim-page {
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.borda-fim-page {
+  content: "";
+  border-top: 1px solid;
+  -o-border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+     border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+  width: 100%;
+  height: 100%;
+}
+
+.borda-fim-page p {
   color: var(--cor-Branco-Azulado);
   margin: auto;
-  text-align: center;
 }
 
 /*********************************** CONFIGURAÇÃO EFEITO IMAGENS FLUTANDO ***********************************/

@@ -14,8 +14,11 @@
     /**/
     --cor-clara-links: #17cdce;
     /**/
-    --cor-diferente: #dd5065;
+    --cor-rosa: #dd5065;
     /**/
+    --cor-roxo: #9e78fe;
+    /**/
+    --cor-verdemar: #04b3c8;
 }
 
 $borderRadius: 10px;
@@ -40,7 +43,7 @@ $transition: $timing ease all;
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-size: calc(60% + 0.8vmin);
+    font-size: calc(60% + 0.9vmin);
 }
 
 html,
@@ -196,7 +199,11 @@ main {
 }
 
 /*********************************** CONFIGURAÇÃO SESSÃO APRESENTAÇÃO ***********************************/
-.container-apresentacao,.container-servicos,.container-beneficios, .container-portifolio,.container-hardskills  {
+.container-apresentacao,
+.container-servicos,
+.container-beneficios,
+.container-portifolio,
+.container-hardskills {
     padding: 65px 10px;
     margin: 5px;
 }
@@ -207,6 +214,7 @@ main {
     display: flex;
     justify-content: left !important;
     text-align: left;
+    padding: 10px;
 }
 
 .img-illustracao-principal {
@@ -270,7 +278,6 @@ main {
     font-weight: 900;
 }
 
-
 /*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
 
 .servicos-descricao {
@@ -280,21 +287,19 @@ main {
 .lista-servico {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 15px;
     color: var(--cor-azulesmeralda);
 }
 
 .item-servicos {
-    padding: 10px;
+    padding: 5px;
     color: var(--cor-branco);
 }
 .lista-servico h3 {
     color: var(--cor-clara-links);
-    margin: 5px 0;
 }
 
 .icon-servico {
-    margin: 10px auto;
+    margin: 5px auto;
     height: $linkHeight;
     width: $spacer * 2.5;
 }
@@ -363,7 +368,6 @@ main {
 
 /*********************************** CONFIGURAÇÃO HARDSKILLS ***********************************/
 
-
 .container-hardskills section {
     padding: 5px;
 }
@@ -371,7 +375,6 @@ main {
 .img-hardskills {
     width: 40%;
 }
-
 
 .container-hardskills .img-hard-ilustracao {
     width: 35vw;
@@ -385,7 +388,7 @@ main {
     margin: 10px;
     box-shadow: none;
     background: none;
-    background: var(--cor-Azul-Marinho);
+
     overflow: hidden;
     border-radius: 20px;
 }
@@ -431,13 +434,13 @@ main {
 
 .card-side.back {
     transform: rotateY(-180deg);
-    background-color: var(--cor-Azul-Marinho);
+    background-color: var(--cor-diferente);
     color: var(--cor-Branco-Azulado);
     padding: 15px;
 }
 
 .card-side.back h3 {
-    color: var(--cor-clara-links);
+    color: var(--cor-Azul-Marinho);
     padding-bottom: 5px;
 }
 
@@ -450,16 +453,51 @@ main {
 }
 
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
-/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
-.borda-fim-page {
-    border: 2px solid;
-    border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
-    margin: 10px auto;
+.container-rodape {
+    border: 2px solid rebeccapurple;
+    padding: 20px;
+    color: var(--cor-azulesmeralda);
+    display: flex;
+    align-items: stretch !important;
 }
-.p-reservado {
+.container-rodape section {
+    border: 2px solid yellow;
+    padding: 20px;
+}
+
+.container-rodape section p{
+    border: 2px solid red;
+    padding: 10px;
+
+}
+
+.container-rodape section img{
+    border: 2px solid green ;
+    gap: 10px;
+    padding: 5px;
+
+}
+.icon-github {
+    width: 72px;
+    height: 72px;
+}
+/*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
+
+.borda-fim-page {
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.borda-fim-page {
+    content: "";
+    border-top: 1px solid;
+    border-image: linear-gradient(227.9deg, #106af2 0%, #00e0ff, #dbf3f0 100%) 1;
+    width: 100%;
+    height: 100%;
+}
+.borda-fim-page p {
     color: var(--cor-Branco-Azulado);
     margin: auto;
-    text-align: center;
 }
 /*********************************** CONFIGURAÇÃO EFEITO IMAGENS FLUTANDO ***********************************/
 #hero,
@@ -510,7 +548,7 @@ main {
     justify-content: space-between;
 }
 
-.space-around{
+.space-around {
     display: flex;
     justify-content: space-around;
 }
