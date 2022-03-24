@@ -34,7 +34,7 @@
     }
 
     main {
-        margin:65px auto;
+        margin: 65px auto;
     }
 
     h1 {
@@ -42,13 +42,9 @@
         padding: 10px;
     }
 
-    .container {
-        
-    }
+    .container {}
 
-    header {
-
-    }
+    header {}
 
 
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
@@ -119,24 +115,38 @@
     }
 
 
-    
-.container-hardskills, .direcao-responsiva-colum {
-    flex-direction: column;
-}
-.direcao-responsiva-row{
-    display: flex;
-    flex-direction: row;
-}
-.container-hardskills .img-hard-ilustracao {
-    width: 100%;
-    margin: auto;
-}
+
+    .container-hardskills, .direcao-responsiva-colum {
+        flex-direction: column;
+    }
+
+    .direcao-responsiva-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-hardskills .img-hard-ilustracao {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .container-rodape {
+
+        flex-wrap: wrap;
+    }
+
+    .container-rodape section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
-  body{
-      flex-direction: column;
-  }
+    body {
+        flex-direction: column;
+    }
 
     .navbar {
         height: 80px !important;
@@ -188,7 +198,7 @@
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
-  
+
 
     .lista-servico {
         justify-content: space-around;
@@ -239,10 +249,10 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    body{
+    body {
         flex-direction: column;
     }
-  
+
 
     .navbar {
         top: 0;
@@ -336,10 +346,12 @@
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
     }
-    .direcao-responsiva-row{
+
+    .direcao-responsiva-row {
         display: flex;
         flex-direction: row;
     }
+
     .container-hardskills .img-hard-ilustracao {
         width: 100%;
         margin: auto;
@@ -428,8 +440,8 @@
     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
 
-.container-hardskills .img-hard-ilustracao {
-    width: 100%;
-    margin: auto;
-}
+    .container-hardskills .img-hard-ilustracao {
+        width: 100%;
+        margin: auto;
+    }
 }

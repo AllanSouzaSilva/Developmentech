@@ -55,7 +55,7 @@ body {
 }
 body {
     background-color: #040314;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 a {
     text-decoration: none;
@@ -358,11 +358,13 @@ main {
 .container-img-portifolio {
     margin: auto;
     margin: 10px;
+   
 }
 
 .img-portifolio {
     width: 320px;
-    height: 290px;
+    height: 270px;
+    border-radius: 15px;
     object-fit: cotain;
 }
 
@@ -382,7 +384,7 @@ main {
 
 .card {
     perspective: 150rem;
-    width: 190px;
+    width: 180px;
     height: 180px;
     position: relative;
     margin: 10px;
@@ -465,22 +467,28 @@ main {
     padding: 20px;
 }
 
-.container-rodape section p{
+.container-rodape section p {
     border: 2px solid red;
     padding: 10px;
-
 }
 
-.container-rodape section img{
-    border: 2px solid green ;
+.container-rodape section img {
+    border: 2px solid green;
     gap: 10px;
     padding: 5px;
+    z-index: 999;
+    transform: scale(0.90);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.container-rodape section img:hover {
+    transform: scale(1.10);
 }
-.icon-github {
-    width: 72px;
-    height: 72px;
+
+.container-rodape section a {
+    border: 2px solid yellow;
 }
+
 /*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
 
 .borda-fim-page {

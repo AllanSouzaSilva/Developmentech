@@ -51,7 +51,7 @@ body {
 
 body {
   background-color: #040314;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -2232,7 +2232,8 @@ main {
 
 .img-portifolio {
   width: 320px;
-  height: 290px;
+  height: 270px;
+  border-radius: 15px;
   -o-object-fit: cotain;
      object-fit: cotain;
 }
@@ -2253,7 +2254,7 @@ main {
 .card {
   -webkit-perspective: 150rem;
           perspective: 150rem;
-  width: 190px;
+  width: 180px;
   height: 180px;
   position: relative;
   margin: 10px;
@@ -2371,11 +2372,22 @@ main {
   border: 2px solid green;
   gap: 10px;
   padding: 5px;
+  z-index: 999;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-github {
-  width: 72px;
-  height: 72px;
+.container-rodape section img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container-rodape section a {
+  border: 2px solid yellow;
 }
 
 /*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
