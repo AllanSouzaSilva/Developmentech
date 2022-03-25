@@ -34,7 +34,7 @@
     }
 
     main {
-        margin: 65px auto;
+        margin: 70px auto;
     }
 
     h1 {
@@ -144,9 +144,6 @@
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
-    body {
-        flex-direction: column;
-    }
 
     .navbar {
         height: 80px !important;
@@ -197,113 +194,56 @@
         width: 80vw;
     }
 
-    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
-
-
-    .lista-servico {
-        justify-content: space-around;
-    }
-
-    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
-    .container-beneficios {
-        flex-wrap: wrap;
-        width: 90vw;
-    }
-
-    .img-beneficios-ilustracao {
-        width: 100%;
-
-    }
-
-    .beneficios-descricao {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .lista-beneficios {
-        padding: 8px;
-    }
-
-    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
-
-    .container-portifolio {
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .lista-portifolio {
-        flex-direction: column;
-    }
-
-    .container-portifolio {
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .container-img-portifolio, .img-portifolio {
-        width: 100%;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
     body {
+
         flex-direction: column;
     }
 
+    main {
+        margin: 65px auto;
+    }
 
-    .navbar {
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 80px !important;
-        background: #bbf9ff;
+    h1 {
         margin: auto;
-
-
+        padding: 10px;
     }
 
-    .navbar__menu {
-        display: flex;
-        flex-direction: row;
-    }
+    .container {}
 
-    .navbar:hover span {
-        left: auto;
-        top: 100%;
-        color: #0194ff;
-        background: #bbf9ff;
-
-    }
-
-    .navbar__link:hover {
-        color: #0194ff;
-    }
-
-    .navbar__item:before {
-        display: none;
-    }
-
-    .container {
-        border: 2px solid blue;
-        margin: 10px auto;
-    }
+    header {}
 
 
+    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
     }
 
     .img-illustracao-principal {
-        width: 500px;
+        width: 420px;
+    }
+
+    .descricao-apresentacao {
+        width: 80vw;
+    }
+
+    .link-apresentacao {
+        margin: 0;
+        width: 150px;
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
-    .container-servicos-responsivo {
-        height: 180vh !important;
+    .servicos-descricao {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
     }
+
+    .lista-servico {
+        width: 100%;
+        flex-direction: column;
+    }
+
 
 
     /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
@@ -317,8 +257,8 @@
 
     }
 
+
     .beneficios-descricao {
-        border: 2px solid green;
         flex-direction: column-reverse;
         width: 100%;
     }
@@ -327,21 +267,20 @@
         padding: 8px;
     }
 
+
     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
     .container-portifolio {
         width: 100%;
         height: 100%;
-        justify-content: space-around;
     }
 
-    .container-portifolio-responsivo {
-        height: 280vh !important;
-    }
 
     .container-img-portifolio, .img-portifolio {
         width: 100%;
     }
+
+
 
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
@@ -358,78 +297,81 @@
     }
 
 
+    .container-rodape {
+
+        flex-wrap: wrap;
+    }
+
+    .container-rodape section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    header {
-        margin-top: 85px !important;
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+
+        flex-direction: column;
+    }
+    main {
+        width: 85vw;
+        margin-left:100px ;
     }
 
-    .navbar {
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 80px !important;
-        background: #bbf9ff;
-        margin: auto;
-
-
-    }
-
-    .navbar__menu {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .navbar:hover span {
-        left: auto;
-        top: 100%;
-        color: #0194ff;
-        background: #bbf9ff;
-
-    }
-
-    .navbar__link:hover {
-        color: #0194ff;
-    }
-
-    .navbar__item:before {
-        display: none;
-    }
-
-    .container {
+    .container{
         border: 2px solid yellow;
-        height: 165vh;
-        margin: 10px auto;
-
     }
 
+    header {}
 
-    .img-illustracao-principal {
-        width: 500px;
-    }
 
+    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
+    }
+
+    .img-illustracao-principal {
+        width: 420px;
     }
 
     .descricao-apresentacao {
         width: 80vw;
     }
 
+    .link-apresentacao {
+        margin: 0;
+        width: 150px;
+    }
+
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .servicos-descricao {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .lista-servico {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+
     /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
     .container-beneficios {
         flex-wrap: wrap;
-        margin: auto;
+        width: 90vw;
     }
 
-    .img-beneficios-ilustracao, .beneficios-descricao, .lista-beneficios {
-        width: 100%;
+    .img-beneficios-ilustracao {
 
     }
+
 
     .beneficios-descricao {
-        border: 2px solid green;
         width: 100%;
     }
 
@@ -437,11 +379,154 @@
         padding: 8px;
     }
 
+
     /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
 
+    .container-portifolio {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container-img-portifolio, .img-portifolio {
+        
+    }
+
+
+
+    .container-hardskills, .direcao-responsiva-colum {
+        flex-direction: column;
+    }
+
+    .direcao-responsiva-row {
+        display: flex;
+        flex-direction: row;
+    }
 
     .container-hardskills .img-hard-ilustracao {
         width: 100%;
-        margin: auto;
+        
+    }
+
+
+    .container-rodape {
+
+        flex-wrap: wrap;
+    }
+
+    .container-rodape section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+    }
+
+    main {
+        width: 85vw;
+    }
+
+
+    .container {
+        border: 2px solid red;
+    }
+
+    header {}
+
+
+    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
+    .container-apresentacao {
+        flex-direction: column;
+    }
+
+    .img-illustracao-principal {
+        width: 420px;
+    }
+
+    .descricao-apresentacao {
+        width: 80vw;
+    }
+
+    .link-apresentacao {
+        margin: 0;
+        width: 150px;
+    }
+
+    /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    .servicos-descricao {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .lista-servico {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+
+    /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
+    .container-beneficios {
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+
+    .img-beneficios-ilustracao {
+
+    }
+
+
+    .beneficios-descricao {
+        width: 100%;
+    }
+
+    .lista-beneficios {
+        padding: 8px;
+    }
+
+
+    /*********************************** CONFIGURAÇÃO SESSÃO PORTIFOLIO ***********************************/
+
+    .container-portifolio {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container-img-portifolio, .img-portifolio {
+        
+    }
+
+
+
+    .container-hardskills, .direcao-responsiva-colum {
+        flex-direction: column;
+    }
+
+    .direcao-responsiva-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-hardskills .img-hard-ilustracao {
+        width: 100%;
+        
+    }
+
+
+    .container-rodape {
+
+        flex-wrap: wrap;
+    }
+
+    .container-rodape section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 }
