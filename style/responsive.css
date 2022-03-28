@@ -42,7 +42,9 @@
         padding: 10px;
     }
 
-    .container {}
+    .container {
+        
+    }
 
     header {}
 
@@ -178,7 +180,8 @@
     }
 
     .container {
-        height: 125vh;
+        
+        border: 2px solid red;
         margin: 10px auto;
     }
 
@@ -200,7 +203,7 @@
     }
 
     main {
-        margin: 65px auto;
+        margin: 85px auto;
     }
 
     h1 {
