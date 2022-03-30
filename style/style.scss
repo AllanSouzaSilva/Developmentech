@@ -245,9 +245,27 @@ main {
     font-weight: 900;
     color: var(--cor-Azul-Marinho);
 }
+h1 {
+    width: 18ch;
+    white-space: nowrap;
+    animation: typing 2s steps(40), blink 0.5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 3px solid #00e0ff;
+}
 
-.descricao-apresentacao h3,
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes identifier {
+ 50%{
+     border-color: transparent;
+ }   
+}
 .titulo-pricipal,
+.descricao-apresentacao h3,
 .titulo-secundario {
     background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
     background-clip: text;
@@ -377,7 +395,8 @@ main {
     width: 40%;
 }
 
-.container-hardskills,.img-hard-ilustracao {
+.container-hardskills,
+.img-hard-ilustracao {
     width: 35vw;
 }
 
@@ -566,4 +585,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor-Azul-Oceano);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-clara-links);
+    border-radius: 50px;
 }
