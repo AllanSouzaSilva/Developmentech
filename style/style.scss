@@ -97,7 +97,7 @@ li {
         justify-content: center;
         height: $linkHeight;
         width: $spacer * 5.5;
-        color: #15365c;
+        color: var(--cor-Azul-Oceano);
         transition: $transition;
         span {
             position: absolute;

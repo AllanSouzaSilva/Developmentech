@@ -90,7 +90,7 @@ li {
           justify-content: center;
   height: 3.5rem;
   width: 5.5rem;
-  color: #15365c;
+  color: var(--cor-Azul-Oceano);
   -webkit-transition: 250ms ease all;
   transition: 250ms ease all;
 }

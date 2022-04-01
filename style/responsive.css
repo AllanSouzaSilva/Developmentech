@@ -47,7 +47,11 @@
     }
 
     header {}
-
+    h1 {
+        width: 16ch;
+        margin:0;
+        padding: 0;
+    }
 
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
