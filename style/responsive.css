@@ -55,6 +55,7 @@
 
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
+      
         flex-direction: column;
     }
 
