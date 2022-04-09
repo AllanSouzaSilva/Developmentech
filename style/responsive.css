@@ -42,20 +42,19 @@
         padding: 10px;
     }
 
-    .container {
-        
-    }
+    .container {}
 
     header {}
+
     h1 {
         width: 16ch;
-        margin:0;
+        margin: 0;
         padding: 0;
     }
 
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
-      
+
         flex-direction: column;
     }
 
@@ -73,19 +72,19 @@
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+
     .servicos-descricao {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    .lista-servico {
-        width: 100%;
         flex-direction: column;
     }
 
-
+    .lista-servico {
+        border: 2px solid blue;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
 
     /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
     .container-beneficios {
@@ -185,7 +184,7 @@
     }
 
     .container {
-        
+
         border: 2px solid red;
         margin: 10px auto;
     }
@@ -240,16 +239,18 @@
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+ 
     .servicos-descricao {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     .lista-servico {
+        border: 2px solid blue;
+        justify-content: center;
         width: 100%;
-        flex-direction: column;
+        height: 100%;
+        flex-wrap: wrap;
     }
 
 
@@ -323,12 +324,13 @@
 
         flex-direction: column;
     }
+
     main {
         width: 85vw;
-        margin-left:100px ;
+        margin-left: 100px;
     }
 
-    .container{
+    .container {
         border: 2px solid yellow;
     }
 
@@ -354,16 +356,18 @@
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
+    
     .servicos-descricao {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     .lista-servico {
+        border: 2px solid blue;
+        justify-content: center;
         width: 100%;
-        flex-direction: column;
+        height: 100%;
+        flex-wrap: wrap;
     }
 
 
@@ -374,9 +378,7 @@
         width: 90vw;
     }
 
-    .img-beneficios-ilustracao {
-
-    }
+    .img-beneficios-ilustracao {}
 
 
     .beneficios-descricao {
@@ -396,9 +398,7 @@
     }
 
 
-    .container-img-portifolio, .img-portifolio {
-        
-    }
+    .container-img-portifolio, .img-portifolio {}
 
 
 
@@ -413,7 +413,7 @@
 
     .container-hardskills .img-hard-ilustracao {
         width: 100%;
-        
+
     }
 
 
@@ -430,8 +430,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    body {
-    }
+    body {}
 
     main {
         width: 85vw;
@@ -484,9 +483,7 @@
         width: 90vw;
     }
 
-    .img-beneficios-ilustracao {
-
-    }
+    .img-beneficios-ilustracao {}
 
 
     .beneficios-descricao {
@@ -506,9 +503,7 @@
     }
 
 
-    .container-img-portifolio, .img-portifolio {
-        
-    }
+    .container-img-portifolio, .img-portifolio {}
 
 
 
@@ -523,7 +518,7 @@
 
     .container-hardskills .img-hard-ilustracao {
         width: 100%;
-        
+
     }
 
 
