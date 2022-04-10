@@ -29,7 +29,6 @@
     }
 
     body {
-
         flex-direction: column;
     }
 
@@ -42,9 +41,6 @@
         padding: 10px;
     }
 
-    .container {}
-
-    header {}
 
     h1 {
         width: 16ch;
@@ -54,7 +50,6 @@
 
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
-
         flex-direction: column;
     }
 
@@ -71,6 +66,10 @@
         width: 150px;
     }
 
+    .descricao-apresentacao h1 {
+        width: 16.5ch;
+    }
+
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
 
     .servicos-descricao {
@@ -79,7 +78,6 @@
     }
 
     .lista-servico {
-        border: 2px solid blue;
         justify-content: center;
         width: 100%;
         height: 100%;
@@ -131,12 +129,6 @@
         flex-direction: row;
     }
 
-    .container-hardskills .img-hard-ilustracao {
-        width: 100%;
-        margin: auto;
-    }
-
-
     .container-rodape {
         width: 100%;
         flex-wrap: wrap;
@@ -150,6 +142,15 @@
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
+
+    body {
+
+        flex-direction: column;
+    }
+
+    main {
+        margin: 85px auto;
+    }
 
     .navbar {
         height: 80px !important;
@@ -184,11 +185,11 @@
     }
 
     .container {
-
         border: 2px solid red;
         margin: 10px auto;
     }
 
+    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
     }
@@ -201,52 +202,25 @@
         width: 80vw;
     }
 
-    body {
-
-        flex-direction: column;
-    }
-
-    main {
-        margin: 85px auto;
-    }
-
-    h1 {
-        margin: auto;
-        padding: 10px;
-    }
-
-    .container {}
-
-    header {}
-
-
-    /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
-    .container-apresentacao {
-        flex-direction: column;
-    }
-
-    .img-illustracao-principal {
-        width: 420px;
-    }
-
-    .descricao-apresentacao {
-        width: 80vw;
-    }
-
     .link-apresentacao {
         margin: 0;
         width: 150px;
     }
 
+
+    .descricao-apresentacao h1 {
+        width: 16.5ch;
+    }
+
+
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
- 
+
     .servicos-descricao {
         display: flex;
         flex-direction: column;
     }
 
     .lista-servico {
-        border: 2px solid blue;
         justify-content: center;
         width: 100%;
         height: 100%;
@@ -300,11 +274,7 @@
         flex-direction: row;
     }
 
-    .container-hardskills .img-hard-ilustracao {
-        width: 100%;
-        margin: auto;
-    }
-
+    
 
     .container-rodape {
         width: 100%;
@@ -325,25 +295,13 @@
         flex-direction: column;
     }
 
-    main {
-        width: 85vw;
-        margin-left: 100px;
-    }
-
-    .container {
-        border: 2px solid yellow;
-    }
-
-    header {}
-
-
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
     }
 
     .img-illustracao-principal {
-        width: 420px;
+        width: 500px;
     }
 
     .descricao-apresentacao {
@@ -356,14 +314,13 @@
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
-    
+
     .servicos-descricao {
         display: flex;
         flex-direction: column;
     }
 
     .lista-servico {
-        border: 2px solid blue;
         justify-content: center;
         width: 100%;
         height: 100%;
@@ -377,9 +334,6 @@
         flex-wrap: wrap;
         width: 90vw;
     }
-
-    .img-beneficios-ilustracao {}
-
 
     .beneficios-descricao {
         width: 100%;
@@ -397,11 +351,6 @@
         height: 100%;
     }
 
-
-    .container-img-portifolio, .img-portifolio {}
-
-
-
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
     }
@@ -411,11 +360,7 @@
         flex-direction: row;
     }
 
-    .container-hardskills .img-hard-ilustracao {
-        width: 100%;
-
-    }
-
+   
 
     .container-rodape {
         width: 100%;
@@ -430,20 +375,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    body {}
-
-    main {
-        width: 85vw;
-    }
-
-
-    .container {
-        border: 2px solid red;
-    }
-
-    header {}
-
-
+   
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
@@ -503,8 +435,6 @@
     }
 
 
-    .container-img-portifolio, .img-portifolio {}
-
 
 
     .container-hardskills, .direcao-responsiva-colum {
@@ -516,10 +446,6 @@
         flex-direction: row;
     }
 
-    .container-hardskills .img-hard-ilustracao {
-        width: 100%;
-
-    }
 
 
     .container-rodape {

@@ -29,9 +29,9 @@ $linkHeight: $spacer * 3.5;
 $timing: 250ms;
 $transition: $timing ease all;
 .fontes {
-    font-family: "Eczar", serif;
-    font-family: "Josefin Sans", sans-serif;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 /*********************************** CONFIGURAÇÃO PADRÃO ***********************************/
@@ -49,13 +49,14 @@ html {
 html,
 body {
     font-size: calc(60% + 0.8vmin);
-
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #040314;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1023)'%3e%3c/rect%3e%3cpath d='M569 75L568 -153' stroke-width='6' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1407 115L1406 -85' stroke-width='10' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M581 125L580 -188' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M381 544L380 214' stroke-width='6' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M337 402L336 784' stroke-width='10' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1119 490L1118 796' stroke-width='8' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M514 184L513 -202' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M739 423L738 106' stroke-width='8' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M461 94L460 326' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M866 460L865 281' stroke-width='10' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M827 21L826 171' stroke-width='6' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M45 286L44 579' stroke-width='6' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1307 395L1306 739' stroke-width='6' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M367 101L366 451' stroke-width='8' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M918 310L917 636' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M762 383L761 750' stroke-width='10' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M700 151L699 331' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M330 547L329 384' stroke-width='10' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M999 374L998 655' stroke-width='6' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1108 200L1107 13' stroke-width='8' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M223 122L222 -82' stroke-width='8' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M506 512L505 726' stroke-width='6' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M523 103L522 -38' stroke-width='6' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1019 6L1018 351' stroke-width='6' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M823 2L822 -268' stroke-width='10' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1002 58L1001 -200' stroke-width='6' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M800 65L799 -109' stroke-width='8' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M766 337L765 500' stroke-width='8' stroke='url(%23SvgjsLinearGradient1027)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1216 272L1215 522' stroke-width='8' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1276 84L1275 -77' stroke-width='10' stroke='url(%23SvgjsLinearGradient1024)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M277 186L276 435' stroke-width='10' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M133 104L132 -64' stroke-width='10' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M334 356L333 528' stroke-width='10' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M196 228L195 -135' stroke-width='6' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M558 97L557 269' stroke-width='6' stroke='url(%23SvgjsLinearGradient1025)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M596 52L595 -126' stroke-width='8' stroke='url(%23SvgjsLinearGradient1026)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1022'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1023'%3e%3cstop stop-color='rgba(24%2c 24%2c 94%2c 1)' offset='1'%3e%3c/stop%3e%3cstop stop-color='rgba(21%2c 54%2c 92%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1024'%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1025'%3e%3cstop stop-color='rgba(4%2c 179%2c 200%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 179%2c 200%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1026'%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(1%2c 148%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1027'%3e%3cstop stop-color='rgba(4%2c 179%2c 200%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 179%2c 200%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+background-attachment: fixed;
 }
 a {
     text-decoration: none;
@@ -177,15 +178,15 @@ li {
 
 /*********************************** CONFIGURAÇÃO MAIN ***********************************/
 main {
-    background-attachment: fixed;
     width: 90vw;
     margin-left: 80px;
+  
 }
 
 /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL PADRÃO ***********************************/
 .container {
     border-radius: 15px;
-    margin: 5px;
+    margin: 10px;
     width: 100%;
     height: 100%;
     /* From https://css.glass */
@@ -233,7 +234,6 @@ main {
     padding: 8px;
     background-image: linear-gradient(to top, #106af2, #00e0ff, #dbf3f0);
     border-radius: 10px;
-    font-weight: 900;
     color: var(--cor-Azul-Marinho);
 }
 .link-apresentacao:hover {
@@ -241,7 +241,6 @@ main {
     background-image: linear-gradient(to right, #dbf3f0, #00e0ff, #106af2);
     box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
     border-radius: 10px;
-    font-weight: 900;
     color: var(--cor-Azul-Marinho);
 }
 .descricao-apresentacao h1 {
@@ -270,8 +269,7 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 
@@ -291,10 +289,7 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
 }
-
 /*********************************** CONFIGURAÇÃO SERVIÇOS ***********************************/
 
 .servicos-descricao {
@@ -306,11 +301,6 @@ main {
     flex-wrap: nowrap;
     color: var(--cor-azulesmeralda);
     margin: 5px;
-}
-
-
-.lista-servico h3 {
-    color: var(--cor-Branco-Azulado);
 }
 
 .icon-servico {
@@ -344,9 +334,14 @@ border-radius:  15px ;
 }
 
 
-.efeitoHover p, .content h3{
-    margin: 15px;
-    font-weight: 900;
+.content p{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.lista-servico .content h3 {
+    color: var(--cor-Branco-Azulado);
+    margin: 10px;
 }
 
 .efeitoHover:hover .content {
@@ -394,7 +389,7 @@ border-radius:  15px ;
 /*********************************** CONFIGURAÇÃO BENEFICIOS ***********************************/
 
 .beneficios-descricao {
-    color: var(--cor-clara-links);
+    color: var(--cor-azulesmeralda);
 }
 .lista-beneficios li::before,
 .lista-beneficios li::after {
@@ -570,7 +565,7 @@ transform: scale(1.0);
     transform: rotateY(-180deg);
     background-color: var(--cor-rosa);
     color: var(--cor-Branco-Azulado);
-    padding: 15px;
+    padding: 10px;
 }
 
 .card-side.back h3 {
@@ -596,12 +591,12 @@ transform: scale(1.0);
 }
 
 .card .logo-csharp{
-    border: 2px solid red;
     font-size: 5rem;
     background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    font-family: 'Lobster', cursive;
 
 }
 
@@ -611,6 +606,7 @@ transform: scale(1.0);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    font-family: 'Lobster', cursive;
 }
 
 /*********************************** CONFIGURAÇÃO RODAPÉ/CONTATO ***********************************/
