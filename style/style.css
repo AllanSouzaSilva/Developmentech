@@ -64,6 +64,60 @@ li {
   list-style: none;
 }
 
+.fa-whatsapp {
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#040314), color-stop(#15365c), color-stop(#0194ff), to(#17cdce));
+  background-image: linear-gradient(to top, #040314, #15365c, #0194ff, #17cdce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.9rem;
+}
+
+.scroll-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--cor-Azul-Marinho);
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#040314), color-stop(#15365c), color-stop(#0194ff), color-stop(#17cdce), to(#bbf9ff));
+  background: linear-gradient(to top, #040314, #15365c, #0194ff, #17cdce, #bbf9ff);
+  border: 1px solid #0194ff;
+  -webkit-transition: -webkit-transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-filter: drop-shadow(-8px 12px 7px var(--cor-Azul-Marinho));
+          filter: drop-shadow(-8px 12px 7px var(--cor-Azul-Marinho));
+  z-index: 999;
+}
+
+.scroll-top:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#bbf9ff), color-stop(#17cdce), color-stop(#0194ff), color-stop(#15365c), to(#040314));
+  background: linear-gradient(to top, #bbf9ff, #17cdce, #0194ff, #15365c, #040314);
+  border: 1px solid var(--cor-azulesmeralda);
+  color: var(--cor-azulesmeralda);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 /*********************************** CONFIGURAÇÃO MENU LATERAL ***********************************/
 .navbar {
   position: fixed;
@@ -2065,14 +2119,13 @@ main {
 .paragrafo-apresentacao,
 .link-apresentacao {
   line-height: 1.2;
-  margin: 20px 0;
+  margin: 10px 0;
   width: 300px;
   color: var(--cor-branco);
 }
 
 .link-apresentacao {
   text-align: center;
-  padding: 8px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#106af2), color-stop(#00e0ff), to(#dbf3f0));
   background-image: linear-gradient(to top, #106af2, #00e0ff, #dbf3f0);
   border-radius: 10px;
@@ -2080,7 +2133,6 @@ main {
 }
 
 .link-apresentacao:hover {
-  padding: 5px 20px;
   background-image: -webkit-gradient(linear, left top, right top, from(#dbf3f0), color-stop(#00e0ff), to(#106af2));
   background-image: linear-gradient(to right, #dbf3f0, #00e0ff, #106af2);
   -webkit-box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
@@ -2178,6 +2230,7 @@ main {
   margin: 5px auto;
   height: 3.5rem;
   width: 2.5rem;
+  color: var(--cor-azulesmeralda);
 }
 
 .efeitoHover {
@@ -2218,12 +2271,17 @@ main {
 
 .content p {
   margin: 10px;
-  font-weight: 700;
 }
 
 .lista-servico .content h3 {
   color: var(--cor-Branco-Azulado);
   margin: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#106af2), color-stop(#00e0ff), color-stop(#dbf3f0), to(#f8f2f6));
+  background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .efeitoHover:hover .content {

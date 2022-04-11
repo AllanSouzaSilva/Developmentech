@@ -65,7 +65,43 @@ a {
 li {
     list-style: none;
 }
+.fa-whatsapp{
+    padding: 10px;
+    background-image: linear-gradient(to top,#040314, #15365c,#0194ff, #17cdce);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.9rem;
+}
+.scroll-top{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-Azul-Marinho);
+    cursor: pointer;
+    transform: scale(0.9);
+    border-radius: 50%;
+    background: linear-gradient(to top,#040314, #15365c,#0194ff, #17cdce, #bbf9ff);
+    border: 1px solid #0194ff;
+    transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(-8px 12px 7px var(--cor-Azul-Marinho));
+    z-index: 999;
+}
 
+.scroll-top:hover{
+    background: linear-gradient(to top,#bbf9ff,#17cdce,#0194ff,#15365c,#040314);
+    border: 1px solid var(--cor-azulesmeralda);
+    color: var(--cor-azulesmeralda);
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
 /*********************************** CONFIGURAÇÃO MENU LATERAL ***********************************/
 @mixin gooeyEffect($i) {
     @keyframes gooeyEffect-#{$i} {
@@ -225,19 +261,17 @@ main {
 .paragrafo-apresentacao,
 .link-apresentacao {
     line-height: 1.2;
-    margin: 20px 0;
+    margin: 10px 0;
     width: 300px;
     color: var(--cor-branco);
 }
 .link-apresentacao {
     text-align: center;
-    padding: 8px;
     background-image: linear-gradient(to top, #106af2, #00e0ff, #dbf3f0);
     border-radius: 10px;
     color: var(--cor-Azul-Marinho);
 }
 .link-apresentacao:hover {
-    padding: 5px 20px;
     background-image: linear-gradient(to right, #dbf3f0, #00e0ff, #106af2);
     box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
     border-radius: 10px;
@@ -307,6 +341,7 @@ main {
     margin: 5px auto;
     height: $linkHeight;
     width: $spacer * 2.5;
+    color: var(--cor-azulesmeralda);
 }
 
 .efeitoHover {
@@ -330,18 +365,21 @@ main {
     flex-direction: column;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.055);
     transition: all .4s;
-border-radius:  15px ;
+    border-radius:  15px ;
 }
 
 
 .content p{
     margin: 10px;
-    font-weight: 700;
 }
-
 .lista-servico .content h3 {
     color: var(--cor-Branco-Azulado);
     margin: 10px;
+    background-image: linear-gradient(to right, #106af2, #00e0ff, #dbf3f0, #f8f2f6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .efeitoHover:hover .content {
@@ -639,10 +677,9 @@ transform: scale(1.0);
 
 .container-rodape section img:hover {
     transform: scale(1.1);
+    
 }
 
-.container-rodape section a {
-}
 
 /*********************************** CONFIGURAÇÃO FIM DA PAGINÁ ***********************************/
 

@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Allan Souza Silva">
-    <meta name="description" content="Allan Souza Silva, Empresa de TI">
+    <meta property="og:title" content="Tech Development">
+    <meta name="description" content="Tech Development, Empresa de TI">
     <meta name="author" content="Allan Souza">
 
-    <title>HardSoft Enterprise | TI</title>
+    <title>Tech Development | TI</title>
     <!-- Icon do navegador  -->
-    <link rel="icon" type="image/png" href="/img/LogoHardSoft.jpg" />
+    <link rel="icon" type="image/png" href="/img/cromada.png" />
     <!-- Link Style -->
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/responsive.css">
@@ -20,7 +20,9 @@
     <!-- Links Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lobster&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&family=Montserrat:wght@400&display=swap"
+        rel="stylesheet">
 
 
 
@@ -28,6 +30,7 @@
 
     <!-- ScriptJS-->
     <script src="/javascript/main.js"></script>
+    <script src="/Javascript/index.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
@@ -48,12 +51,13 @@
                 </li>
                 <li class="navbar__item">
                     <a href="#Meu-Portifolio" class="navbar__link"><i
-                            data-feather="folder"></i><span>Tecnologias</span></a>
+                            data-feather="archive"></i><span>Projetos</span></a>
                 </li>
                 <li class="navbar__item">
                     <a href="#Hardskills-Ferramentas" class="navbar__link"><i
-                            data-feather="archive"></i><span>Projetos</span></a>
+                            data-feather="folder"></i><span>Tecnologias</span></a>
                 </li>
+               
                 <li class="navbar__item">
                     <a href="#Contato-Direto" class="navbar__link"><i data-feather="users"></i><span>Contatos</span></a>
                 </li>
@@ -61,12 +65,15 @@
         </nav>
 
     </header>
+    <button class="scroll-top"  onclick="scrolltop()">
+        <i data-feather="arrow-up-circle"></i>
+    </button>
     <main class="display-flex flex-direction-colum posicao-centro" id="HomePrincipal">
-
+            
         <article class="container posicao-centro">
             <aside class="container-apresentacao posicao-centro">
                 <div class="descricao-apresentacao justify-content-left" data-aos="fade-right">
-                    <h1 class="titulo-pricipal">Smartech Resource</h1>
+                    <h1 class="titulo-pricipal">Tech Development</h1>
                     <h3>Empresa de soluções em TI</h3>
                     <p class="paragrafo-apresentacao">Nossos serviços também é composto por, montagem e manutenção de
                         microcomputadores, notbooks,
@@ -74,7 +81,7 @@
                         relacionados a suportes de computadores domésticos.
                     </p>
 
-                    <a class="link-apresentacao" href="#">Entre em contato</a>
+                    <a class="link-apresentacao" href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre em contato<i class="fab fa-whatsapp"></i></a>
                 </div>
 
                 <div class="img-apresentacao" data-aos="fade-left">
@@ -260,7 +267,7 @@
                         <li class="item-beneficios"><i data-feather="check"></i>
                             <p>Ter sua identidade online!</p>
                         </li>
-                        <li><a class="link-apresentacao" href="#">Entre em contato</a></li>
+                        <li><a class="link-apresentacao" href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre em contato<i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                     <ul class="lista-beneficios display-flex justify-content-left">
                         <h2 class="titulo-secundario" data-aos="fade-left">O que preciso?</h2>
@@ -295,12 +302,12 @@
                 <section class="lista-portifolio" data-aos="fade-left">
 
                     <div class="container-img-portifolio display-flex flex-direction-colum">
-                        <img class="img-portifolio" src="/img/port-Allan.jpg" alt="Imagem site Allan">
+                        <img class="img-portifolio" src="/img/port-Allan.jpg" alt="Imagem Portifólio Allan">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://allansouza-freelancer.netlify.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/allansouza-freelancer"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
 
                     </div>
@@ -308,18 +315,18 @@
                         <img class="img-portifolio" src="/img/Projeto-marketing.jpg" alt="Imagem site Marketing">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="marketingdigitalrecriado.netlify.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/DayanaMK"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
                         <img class="img-portifolio" src="/img/projeto-ecommerce.jpg" alt="Imagem site Ecommece">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://ecommercefree.netlify.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/ecommercefree"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
                     </div>
                 </section>
@@ -330,27 +337,27 @@
                             alt="Imagem site pesquisa de jogos">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://pesquisajogos-allansouza.netlify.app"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/DevSuperior"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
                         <img class="img-portifolio" src="/img/projeto-Empresa.jpg" alt="Imagem site empresa">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="techdevelopment.netlify.app"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/HardSoftEnterprise"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
                         <img class="img-portifolio" src="/img/Departhome.gif" alt="Imagem site controle de vendedor">
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href=""> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
 
-                            <a href=""> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
                         </div>
                     </div>
                 </section>
@@ -477,16 +484,16 @@
             <aside class="container-rodape posicao-centro">
                 <section>
                     <h2 class="texto-subtitulo">Contato</h2>
-                    <p>Email: resourcehardsoft@outlook.com</p>
+                    <p>Email: allan-souza16@hotmail.com</p>
                     <p>Telefone: (011) 98545-983</p>
                     <p>Endereço: Rua travessa Farias | São Paulo - SP | CEP: 03947-060</p>
                 </section>
                 <section>
                     <h2 class="texto-subtitulo">Redes sociais</h2>
-                    <a href=""><img src="/img/facebook.png" alt=""></a>
-                    <a href="https://www.instagram.com/rhardsoft/"><img src="/img/instagram.png" alt=""></a>
-                    <a href=""><img src="/img/linkedin.png" alt=""></a>
-                    <a href=""><img src="/img/whatsapp.png" alt=""></a>
+                    <a href="https://www.facebook.com/EnterpriseTechDevelopment/" target="_blank"><img src="/img/facebook.png" alt="Icon facebook"></a>
+                    <a href="https://www.instagram.com/Enterprise_Tech_Development/" target="_blank"><img src="/img/instagram.png" alt="Icon-instagram"></a>
+                    <a href="https://www.linkedin.com/in/allan-souza-silva-794164146/" target="_blank"><img src="/img/linkedin.png" alt="Icon linkedin "></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank"><img src="/img/whatsapp.png" alt="Icon-whatsaap"></a>
 
                 </section>
 
@@ -497,7 +504,7 @@
 
 
         <section class="borda-fim-page display-flex">
-            <p> Smartech Resource </p> <b>|</b>
+            <p> Tech Development </p> <b>|</b>
             <p>Todos os direitos reservados a &copy;Copyright </p>
         </section>
     </main>
