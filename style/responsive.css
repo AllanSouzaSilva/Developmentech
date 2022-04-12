@@ -63,11 +63,12 @@
 
     .link-apresentacao {
         margin: 0;
-        width: 150px;
+        width: 180px;
     }
 
     .descricao-apresentacao h1 {
-        width: 16.5ch;
+        width: 11.5ch;
+        white-space: normal;
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
@@ -118,16 +119,30 @@
         width: 100%;
     }
 
-
+    /*********************************** CONFIGURAÇÃO SESSÃO HARDSKILLS ***********************************/
 
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
     }
 
+    
+.container-hardskills,
+.img-hard-ilustracao {
+    width: 100vw;
+}
+
+
     .direcao-responsiva-row {
         display: flex;
         flex-direction: row;
     }
+
+    .card {
+        width: 175px;
+        height: 175px;
+    }
+
+    /*********************************** CONFIGURAÇÃO SESSÃO RODAPÉ ***********************************/
 
     .container-rodape {
         width: 100%;
@@ -138,6 +153,12 @@
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    
+    .borda-fim-page  {
+    
+        padding: 10px;
     }
 }
 
@@ -185,7 +206,6 @@
     }
 
     .container {
-        border: 2px solid red;
         margin: 10px auto;
     }
 
@@ -204,12 +224,12 @@
 
     .link-apresentacao {
         margin: 0;
-        width: 150px;
+        width: 180px;
     }
 
-
     .descricao-apresentacao h1 {
-        width: 16.5ch;
+        width: 11.5ch;
+        white-space: normal;
     }
 
 
@@ -265,16 +285,29 @@
 
 
 
+    /*********************************** CONFIGURAÇÃO SESSÃO HARDSKILLS ***********************************/
+
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
     }
 
+.container-hardskills,
+.img-hard-ilustracao {
+    width: 100vw;
+}
     .direcao-responsiva-row {
         display: flex;
         flex-direction: row;
     }
 
-    
+    .card {
+        width: 175px;
+        height: 175px;
+    }
+
+
+    /*********************************** CONFIGURAÇÃO SESSÃO RODAPÉ ***********************************/
+
 
     .container-rodape {
         width: 100%;
@@ -286,12 +319,17 @@
         padding: 0;
         margin: 0;
     }
+      
+    .borda-fim-page  {
+    
+        padding: 10px;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     body {
-
+width: 100%;
         flex-direction: column;
     }
 
@@ -310,7 +348,11 @@
 
     .link-apresentacao {
         margin: 0;
-        width: 150px;
+        width: 180px;
+    }
+    .descricao-apresentacao h1 {
+        width: 11.5ch;
+        white-space: normal;
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
@@ -351,16 +393,25 @@
         height: 100%;
     }
 
+    /*********************************** CONFIGURAÇÃO SESSÃO HARDSKILLS ***********************************/
+
     .container-hardskills, .direcao-responsiva-colum {
         flex-direction: column;
     }
 
+    .container-hardskills,
+    .img-hard-ilustracao {
+        width: 100vw;
+    }
     .direcao-responsiva-row {
         display: flex;
         flex-direction: row;
     }
 
-   
+
+    /*********************************** CONFIGURAÇÃO SESSÃO RODAPÉ ***********************************/
+
+
 
     .container-rodape {
         width: 100%;
@@ -372,10 +423,15 @@
         padding: 0;
         margin: 0;
     }
+      
+    .borda-fim-page  {
+    
+        padding: 10px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-   
+
     /*********************************** CONFIGURAÇÃO CONTAINER PRINCIPAL ***********************************/
     .container-apresentacao {
         flex-direction: column;
@@ -391,7 +447,11 @@
 
     .link-apresentacao {
         margin: 0;
-        width: 150px;
+        width: 180px;
+    }
+    .descricao-apresentacao h1 {
+        width: 11.5ch;
+        white-space: normal;
     }
 
     /*********************************** CONFIGURAÇÃO MENU SERVIÇOS ***********************************/
