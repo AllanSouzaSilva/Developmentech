@@ -8,7 +8,7 @@ Projeto voltado a um site empresarial, por criação própria!
 <!-- imagens-->
 <h2 align="center">
   <p>Web Marketing home page</p>
-  <img width="70%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/DayanaMK/blob/main/img/video-desktop.gif" style="max-width:70%;">
+  <img width="70%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/Enterprise_Tech_Development/blob/main/img/projeto-Empresa.jpg" style="max-width:70%;">
 </h2>
 
 
