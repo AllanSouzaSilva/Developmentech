@@ -3,7 +3,8 @@
 
   <p align="center"> 
     
-    O intuito desse projeto foi criar um site para fins comerciais, na onde busco divulgar os serviços e trabalhos através da aréa de TI, é um projeto pessoal que tem a finalizade de agregar valor a marca, além de recolher recursos. O site está bem ituitivo e dinâmico, acredito que o usuário não terá dificuldade de manusear ou selecionar qualquer funcionalidade, o projeto ainda não está totalmente finalizado, porém já está em prudução e pode se ter acesso em qualquer dispositivo, seja ele web, tablet ou mobile. Dúvidas entre em contato!!!
+    O intuito desse projeto foi criar um site para fins comerciais, na onde busco divulgar os serviços e trabalhos através da aréa de TI, é um projeto pessoal que tem a finalizade de agregar valor a marca, além de receber recursos. O website está bem 
+intuitivo e dinâmico, acredito que o usuário não terá dificuldade em manusear ou selecionar qualquer funcionalidade, o projeto ainda não está totalmente finalizado, penso em criar novas funcionalidades, porém já está em produção e pode-se ter acesso em qualquer dispositivo, seja ele web, tablet ou mobile. Dúvidas entre em contato!!!
 </p>
 
 <!-- imagens-->
@@ -51,11 +52,15 @@
   --cor-rosa: #dd5065;
 ```
 
+```
 # Fontes
 
     font-family: 'Eczar', serif;
     font-family: 'Josefin Sans', sans-serif;
+ ```
+ 
 # Tecnologias utilizadas 
+
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
 
