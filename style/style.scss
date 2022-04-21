@@ -60,6 +60,7 @@ body {
   background-attachment: fixed;
 
 }
+
 a {
     text-decoration: none;
 }
@@ -678,6 +679,7 @@ transform: scale(1.0);
 
 .container-rodape section img:hover {
     transform: scale(1.1);
+    transform: translateY(-10px);
     
 }
 
