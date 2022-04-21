@@ -77,4 +77,4 @@ intuitivo e dinâmico, acredito que o usuário não terá dificuldade em manusea
   
 [![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
 
-[![social](https://img.shields.io/badge/Site--red?style=for-the-badge)](https://marketingdigitalrecriado.netlify.app/)
+[![social](https://img.shields.io/badge/Site--red?style=for-the-badge)](https://developmentech.netlify.app/)
