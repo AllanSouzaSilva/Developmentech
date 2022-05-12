@@ -35,7 +35,7 @@
 </head>
 
 <body class="space-around">
-    <header>
+    <header data-aos="fade-down">
         <nav class="navbar">
             <ul class="navbar__menu">
                 <li class="navbar__item">
@@ -57,7 +57,7 @@
                     <a href="#Hardskills-Ferramentas" class="navbar__link"><i
                             data-feather="folder"></i><span>Tecnologias</span></a>
                 </li>
-               
+
                 <li class="navbar__item">
                     <a href="#Contato-Direto" class="navbar__link"><i data-feather="users"></i><span>Contatos</span></a>
                 </li>
@@ -65,14 +65,16 @@
         </nav>
 
     </header>
-    <button class="scroll-top"  onclick="scrolltop()">
+    <button class="scroll-top" onclick="scrolltop()">
         <i data-feather="arrow-up-circle"></i>
     </button>
     <main class="display-flex flex-direction-colum posicao-centro" id="HomePrincipal">
-            
-        <article class="container posicao-centro">
+
+        <article class="container posicao-centro" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1100">
             <aside class="container-apresentacao posicao-centro">
-                <div class="descricao-apresentacao justify-content-left" data-aos="fade-right">
+                <div class="descricao-apresentacao justify-content-left"  data-aos="zoom-in-right">
                     <h1 class="titulo-pricipal">Developmentech</h1>
                     <h3>Empresa de soluções em TI</h3>
                     <p class="paragrafo-apresentacao">Nossos serviços também é composto por, montagem e manutenção de
@@ -81,23 +83,31 @@
                         relacionados a suportes de computadores domésticos.
                     </p>
 
-                    <a class="link-apresentacao" href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre em contato<i class="fab fa-whatsapp"></i></a>
+                    <a class="link-apresentacao"
+                        href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre
+                        em contato<i class="fab fa-whatsapp"></i></a>
                 </div>
 
-                <div class="img-apresentacao" data-aos="fade-left">
-                    <img class="img-illustracao-principal animated " src="/img/urban-842.png"
-                        alt="Imagem de illustração">
+                <div class="img-apresentacao"  data-aos="zoom-in-left">
+                    <img class="img-illustracao-principal animated " src="/img/urban-842.png" loading="lazy"
+                        alt="Imagem de illustração"/>
                 </div>
             </aside>
         </article>
 
-        <article class="container posicao-centro container-servicos-responsivo" id="Servicos-Gerais">
+        <article class="container posicao-centro container-servicos-responsivo" id="Servicos-Gerais" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1100">
 
-            <aside class="container-servicos display-flex flex-direction-colum">
-                <h2 class="titulo-secundario" data-aos="fade-left">Serviços</h2>
-                <div class="servicos-descricao display-flex flex-direction-colum" data-aos="fade-left">
+            <aside class="container-servicos display-flex flex-direction-colum" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <h2 class="titulo-secundario">Serviços</h2>
+                <div class="servicos-descricao display-flex flex-direction-colum">
 
-                    <ul class="lista-servico display-flex flex-direction-row space-between" data-aos="fade-right">
+                    <ul class="lista-servico display-flex flex-direction-row space-between" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <li class="efeitoHover display-flex flex-direction-colum">
 
                             <div class="content">
@@ -142,7 +152,9 @@
 
                         </li>
                     </ul>
-                    <ul class="lista-servico display-flex flex-direction-row space-between" data-aos="fade-right">
+                    <ul class="lista-servico display-flex flex-direction-row space-between" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
 
                         <li class="efeitoHover display-flex flex-direction-colum">
                             <div class="content">
@@ -239,11 +251,13 @@
 
         </article>
 
-        <article class="container posicao-centro container-servicos-responsivo" id="Beneficios-Site">
+        <article class="container posicao-centro container-servicos-responsivo" id="Beneficios-Site" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <aside class="container-beneficios display-flex space-between">
                 <div class="img-beneficios" data-aos="fade-right">
-                    <img class="img-beneficios-ilustracao animated " src="/img/img-illustracao-servico.png"
-                        alt="imagem serviços" data-aos="fade-top" />
+                    <img class="img-beneficios-ilustracao animated " src="/img/img-illustracao-servico.png" loading="lazy"
+                        alt="imagem serviços"  data-aos="fade-top" />
                 </div>
                 <div class="beneficios-descricao display-flex" data-aos="fade-left">
 
@@ -267,7 +281,9 @@
                         <li class="item-beneficios"><i data-feather="check"></i>
                             <p>Ter sua identidade online!</p>
                         </li>
-                        <li><a class="link-apresentacao" href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre em contato<i class="fab fa-whatsapp"></i></a></li>
+                        <li><a class="link-apresentacao"
+                                href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">Entre
+                                em contato<i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                     <ul class="lista-beneficios display-flex justify-content-left">
                         <h2 class="titulo-secundario" data-aos="fade-left">O que preciso?</h2>
@@ -294,7 +310,9 @@
             </aside>
         </article>
 
-        <article class="container" id="Meu-Portifolio">
+        <article class="container" id="Meu-Portifolio" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
 
 
             <aside class="container-portifolio display-flex flex-direction-colum">
@@ -302,75 +320,89 @@
                 <section class="lista-portifolio" data-aos="fade-left">
 
                     <div class="container-img-portifolio display-flex flex-direction-colum">
-                        <img class="img-portifolio" src="/img/port-Allan.jpg" alt="Imagem Portifólio Allan">
-                        <div class="container-botao-portifolio display-flex space-around">
+                        <img class="img-portifolio" src="/img/port-Allan.jpg" loading="lazy" alt="Imagem Portifólio Allan">
+                        <div class="container-botao-portifolio display-flex space-around" />
 
-                            <a href="https://allansouza-freelancer.vercel.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://allansouza-freelancer.vercel.app/"> <img src="/img/cromada.png" loading="lazy"
+                                    alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/allansouza-freelancer"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/allansouza-freelancer"> <img class="icon-github"
+                                    src="/img/github.png" loading="lazy"alt="Logo Github" /> Github</a>
                         </div>
 
                     </div>
                     <div class="container-img-portifolio">
-                        <img class="img-portifolio" src="/img/Projeto-marketing.jpg" alt="Imagem site Marketing">
+                        <img class="img-portifolio" src="/img/Projeto-marketing.jpg" loading="lazy" alt="Imagem site Marketing" />
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href="https://dayana-marketingdigital.vercel.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://dayana-marketingdigital.vercel.app/"> <img src="/img/cromada.png"
+                                loading="lazy" alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/DayanaMK"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/DayanaMK"> <img class="icon-github"
+                                loading="lazy"  src="/img/github.png" alt="Logo Github" /> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
-                        <img class="img-portifolio" src="/img/projeto-ecommerce.jpg" alt="Imagem site Ecommece">
+                        <img class="img-portifolio" src="/img/projeto-ecommerce.jpg" loading="lazy" alt="Imagem site Ecommece" />
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href="https://ecommercefree.vercel.app/"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://ecommercefree.vercel.app/"> <img src="/img/cromada.png"
+                                loading="lazy" alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/ecommercefree"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/ecommercefree"> <img class="icon-github"
+                                loading="lazy"   src="/img/github.png" alt="Logo Github" /> Github</a>
                         </div>
                     </div>
                 </section>
 
                 <section class="lista-portifolio" data-aos="fade-right">
                     <div class="container-img-portifolio">
-                        <img class="img-portifolio" class="img-portifolio" src="/img/Projeto-pesquisaDeJogos.jpg"
-                            alt="Imagem site pesquisa de jogos">
+                        <img class="img-portifolio" class="img-portifolio" src="/img/Projeto-pesquisaDeJogos.jpg" loading="lazy"
+                            alt="Imagem site pesquisa de jogos" />
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href="https://pesquisajogos-allansouza.netlify.app"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://pesquisajogos-allansouza.netlify.app"> <img src="/img/cromada.png"
+                                loading="lazy"   alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/DevSuperior"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/DevSuperior"> <img class="icon-github"
+                                loading="lazy"  src="/img/github.png" alt="Logo Github" /> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
-                        <img class="img-portifolio" src="/img/projeto-Empresa.jpg" alt="Imagem site empresa">
+                        <img class="img-portifolio" src="/img/projeto-Empresa.jpg" loading="lazy" alt="Imagem site empresa" />
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href="techdevelopment.netlify.app"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="techdevelopment.netlify.app"> <img src="/img/cromada.png"
+                                loading="lazy"   alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/HardSoftEnterprise"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/HardSoftEnterprise"> <img class="icon-github"
+                                    src="/img/github.png" alt="Logo Github" /> Github</a>
                         </div>
                     </div>
                     <div class="container-img-portifolio">
-                        <img class="img-portifolio" src="/img/Departhome.gif" alt="Imagem site controle de vendedor">
+                        <img class="img-portifolio" src="/img/Departhome.gif" loading="lazy" alt="Imagem site controle de vendedor" />
                         <div class="container-botao-portifolio display-flex space-around">
 
-                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img src="/img/cromada.png" alt="Logo chrome">WebSite</a>
+                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img
+                                    src="/img/cromada.png" loading="lazy" alt="Logo chrome" />WebSite</a>
 
-                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img class="icon-github" src="/img/github.png" alt="Logo Github"> Github</a>
+                            <a href="https://github.com/AllanSouzaSilva/SistemaCadastroVendedores"> <img
+                                    class="icon-github" src="/img/github.png" loading="lazy" alt="Logo Github" /> Github</a>
                         </div>
                     </div>
                 </section>
             </aside>
         </article>
 
-        <article class="container posicao-centro display-flex flex-direction-colum" id="Hardskills-Ferramentas">
+        <article class="container posicao-centro display-flex flex-direction-colum" id="Hardskills-Ferramentas" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="titulo-secundario" data-aos="fade-left">Hardskills</h2>
 
             <aside class="container-hardskills  posicao-centro">
 
                 <div data-aos="fade-right">
-                    <img class="img-hard-ilustracao animated" src="/img/cherry-business-solutions.png" alt="">
+                    <img class="img-hard-ilustracao animated" src="/img/cherry-business-solutions.png" loading="lazy" alt="Imagem Ilustração" />
                 </div>
 
                 <section class="display-flex flex-direction-colum direcao-responsiva-row" data-aos="fade-left">
@@ -393,7 +425,7 @@
                         <div class="card">
                             <div class="card-side front display-flex posicao-centro flex-direction-colum">
                                 <div class="logo-Dotnet">.Net <br>Core</div>
-                                <h1 class="texto-subtitulo">C# - Csharp</h1>
+                                <h1 class="texto-subtitulo">Dot net core</h1>
                             </div>
 
                             <div class="card-side back">
@@ -465,9 +497,9 @@
                                 <div>
                                     <h3>Sql server</h3>
                                     <p>
-                                        O SQL Server da Microsoft é um sistema especializado em gerenciar esses
-                                        registros, funcionando como uma plataforma completa de soluções. Ele permite
-                                        controlar a qualidade dos dados, desenvolver relatórios avançados e ainda é
+                                        O SQL Server é um sistema especializado em gerenciar esses
+                                        registros. Ele permite controlar a qualidade dos dados, desenvolver relatórios
+                                        avançados e ainda é
                                         capaz de se integrar com diversas fontes.
                                     </p>
                                 </div>
@@ -479,24 +511,37 @@
             </aside>
         </article>
 
-        <footer class="container posicao-centro display-flex flex-direction-colum" id="Contato-Direto">
+        <footer class="container posicao-centro display-flex flex-direction-colum" id="Contato-Direto" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="titulo-secundario" data-aos="fade-left">Entre em contato</h2>
-            <aside class="container-rodape posicao-centro">
+            <aside class="container-rodape">
                 <section data-aos="fade-right">
                     <h2 class="texto-subtitulo">Contato</h2>
-                    <p>Email:    allan-souza16@hotmail.com</p>
+                    <p>Email: allan-souza16@hotmail.com</p>
                     <p>Telefone: <span>(011) 98545-9383</span></p>
                     <p>Endereço: Rua travessa Farias | São Paulo - SP | CEP: 03947-060</p>
-                </section>
-                <section data-aos="fade-left">
-                    <h2 class="texto-subtitulo">Redes sociais</h2>
-                    <a href="https://www.facebook.com/EnterpriseTechDevelopment/" target="_blank"><img src="/img/facebook.png" alt="Icon facebook"></a>
-                    <a href="https://www.instagram.com/Enterprise_Tech_Development/" target="_blank"><img src="/img/instagram.png" alt="Icon-instagram"></a>
-                    <a href="https://www.linkedin.com/in/allan-souza-silva-794164146/" target="_blank"><img src="/img/linkedin.png" alt="Icon linkedin "></a>
-                    <a href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank"><img src="/img/whatsapp.png" alt="Icon-whatsaap"></a>
 
+                    <section data-aos="fade-left">
+                        <h2 class="texto-subtitulo">Redes sociais</h2>
+                        <a href="https://www.facebook.com/EnterpriseTechDevelopment/" target="_blank"><img
+                                src="/img/facebook.png" alt="Icon facebook"></a>
+                        <a href="https://www.instagram.com/Enterprise_Tech_Development/" target="_blank"><img
+                                src="/img/instagram.png" alt="Icon-instagram"></a>
+                        <a href="https://www.linkedin.com/in/allan-souza-silva-794164146/" target="_blank"><img
+                                src="/img/linkedin.png" alt="Icon linkedin "></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511985459383&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento."
+                            target="_blank"><img src="/img/whatsapp.png" alt="Icon-whatsaap"></a>
+                            <a href="https://twitter.com/allazinsp"
+                            target="_blank"><img src="/img/twitter.png" alt="Icon-twitter"></a>
+    
+                    </section>
+    
                 </section>
-
+                <div data-aos="fade-right">
+                    <img class="qr-code-whatsapp animated" src="/img/WhatsApp_Image_2022-05-12_at_17.56.21-removebg-preview.png" loading="lazy" alt="Imagem Ilustração" />
+                </div>
+               
             </aside>
 
 

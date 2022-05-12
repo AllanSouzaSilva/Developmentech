@@ -58,7 +58,7 @@
     }
 
     .descricao-apresentacao {
-        width: 80vw;
+        width: 85vw;
     }
 
     .link-apresentacao {
@@ -67,7 +67,7 @@
     }
 
     .descricao-apresentacao h1 {
-        width: 11.5ch;
+        width: 14.5ch;
         white-space: normal;
     }
 
@@ -157,8 +157,9 @@
 
     
     .borda-fim-page  {
-    
-        padding: 10px;
+        margin: 0;
+        padding: 0;
+
     }
 }
 
@@ -219,7 +220,7 @@
     }
 
     .descricao-apresentacao {
-        width: 80vw;
+        width: 85vw;
     }
 
     .link-apresentacao {
@@ -228,7 +229,7 @@
     }
 
     .descricao-apresentacao h1 {
-        width: 11.5ch;
+        width: 14.5ch;
         white-space: normal;
     }
 
@@ -343,7 +344,7 @@ width: 100%;
     }
 
     .descricao-apresentacao {
-        width: 80vw;
+        width: 85vw;
     }
 
     .link-apresentacao {
@@ -351,7 +352,7 @@ width: 100%;
         width: 180px;
     }
     .descricao-apresentacao h1 {
-        width: 11.5ch;
+        width: 14.5ch;
         white-space: normal;
     }
 
@@ -442,7 +443,7 @@ width: 100%;
     }
 
     .descricao-apresentacao {
-        width: 80vw;
+        width: 85vw;
     }
 
     .link-apresentacao {
@@ -450,7 +451,7 @@ width: 100%;
         width: 180px;
     }
     .descricao-apresentacao h1 {
-        width: 11.5ch;
+        width: 14.5ch;
         white-space: normal;
     }
 
